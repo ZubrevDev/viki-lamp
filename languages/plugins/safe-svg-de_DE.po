@@ -1,0 +1,57 @@
+# Translation of Plugins - Safe SVG - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Safe SVG - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-07 17:33:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Safe SVG - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Enable SVG uploads and sanitize them to stop XML/SVG vulnerabilities in your WordPress website"
+msgstr "Erlaubt SVG-Uploads und bereinigen diese, um XML-/SVG-Schwachstellen in deiner WordPress-Website zu verhindern"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/safe-svg/"
+msgstr "https://de.wordpress.org/plugins/safe-svg/"
+
+#: safe-svg.php:343
+msgid "Large"
+msgstr "Groß"
+
+#: safe-svg.php:342
+msgid "Medium"
+msgstr "Mittel"
+
+#: safe-svg.php:341
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: safe-svg.php:340
+msgid "Full Size"
+msgstr "Originalgröße"
+
+#. Author URI of the plugin
+msgid "https://10up.com"
+msgstr "https://10up.com"
+
+#: safe-svg.php:247
+msgid "Sorry, this file couldn't be sanitized so for security reasons wasn't uploaded"
+msgstr "Diese Datei konnte leider nicht bereinigt werden und wird daher aus Sicherheitsgründen nicht hochgeladen."
+
+#. Author of the plugin
+msgid "10up"
+msgstr "10up"
+
+#. Plugin Name of the plugin
+msgid "Safe SVG"
+msgstr "Safe SVG"
+
+#. translators: %1$s is the command that needs to be run.
+#: safe-svg.php:89
+msgid "You appear to be running a development version of Safe SVG. Please run %1$s in order for things to work properly."
+msgstr "Du scheinst eine Entwicklungsversion von Safe SVG zu benutzen. Bitte führe %1$s aus, damit die Dinge richtig funktionieren."

@@ -1,0 +1,110 @@
+.woocommerce-product-gallery {
+  .wd-btn-arrow {
+    top: 80%;
+    transform: none;
+  }
+  .owl-nav > div[class*="prev"],
+  .owl-nav > div[class*="next"] {
+    transform: none;
+  }
+  .owl-nav > div[class*="prev"] {
+    margin-top: 20px;
+    left: 200px;
+  }
+
+  .viki-custom-prev {
+    left: 10px;
+    &::before {
+      content: "\f121";
+      font-family: "woodmart-font";
+      margin-right: 10px;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 100;
+      -webkit-text-stroke: 0.5px #222;
+    }
+  }
+
+  .wd-btn-arrow[class*="prev"]:after {
+    content: "prev";
+    text-align: center;
+    font-family: Platform-light;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+
+  .viki-custom-next {
+    right: 10px; 
+    &::before {
+      content: "next"; 
+      text-align: center;
+      font-family: Platform-light;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 100%;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+    }
+  }
+  .owl-nav > div[class*="next"] {
+    margin-top: 20px;
+    right: 200px;
+  }
+  .wd-btn-arrow[class*="next"]:after {
+    content: "\f120";
+    font-family: "woodmart-font";
+    margin-left: 10px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    -webkit-text-stroke: 0.5px #222;
+  }
+
+  .wd-owl {
+    @media screen and (min-width: $tablet-landscape){
+        width: 100%;
+    }
+  }
+  .owl-carousel { 
+    display: flex !important;
+
+    @media screen and (min-width: $tablet-landscape){
+        min-height: 600px; 
+    }
+     @media screen and (min-width: $tablet-portrait){
+    .owl-item {
+      position: relative;
+      top: 0; 
+
+      .product-image-wrap img {
+        max-height: 580px; 
+        width: auto; 
+        transition: all 0.3s ease; 
+      }
+    }
+
+    .owl-item.center {
+      top: 0; 
+
+      .product-image-wrap img {
+        transform: scale(1); 
+      }
+    }
+
+    .owl-item:not(.center) {
+      top: -20px;
+
+      .product-image-wrap img {
+        transform: scale(0.8);
+        margin-top: -40px;
+        opacity: 0.6;
+      }
+    }
+    }
+  }
+}

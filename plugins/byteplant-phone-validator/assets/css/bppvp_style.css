@@ -1,0 +1,20 @@
+.settings_page_byteplant_phone_validator .bppvp-card{
+	background-image:url('../img/byteplant_logo_298.gif');
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	padding-bottom: 40px;
+}
+
+#bppvp-list span{
+	float: right;
+}
+
+.bppvp-loading.settings_page_byteplant_phone_validator .bppvp-card{
+	background-image:url('../img/byteplant_logo_298_working.gif');
+}
+
+.bppvp-loading-mail{
+	background-image:url('../img/ajax-loader.gif') !important;
+	background-repeat: no-repeat !important;
+	background-position: center right !important;
+}

@@ -1,0 +1,1348 @@
+# Translation of Plugins - MC4WP: Mailchimp for WordPress - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - MC4WP: Mailchimp for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-07 18:00:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - MC4WP: Mailchimp for WordPress - Stable (latest release)\n"
+
+#: includes/forms/views/tabs/form-settings.php:57
+msgid "We strongly suggest keeping double opt-in enabled. Disabling double opt-in may affect your GDPR compliance."
+msgstr "이중 옵트인을 활성화 상태로 유지하는 것이 좋습니다. 이중 옵트인을 비활성화하면 GDPR 규정 준수에 영향을 미칠 수 있습니다."
+
+#: includes/forms/class-form-amp.php:33
+msgid "Submitting..."
+msgstr "전송 중..."
+
+#: includes/forms/class-form-manager.php:144
+msgid "Resource does not exist."
+msgstr "자원이 존재하지 않습니다."
+
+#: includes/forms/class-admin.php:161 includes/forms/class-admin.php:288
+msgid "Form saved."
+msgstr "양식이 저장되었습니다."
+
+#: integrations/woocommerce/admin-after.php:15
+msgid "Checkout for WooCommerce: After customer info"
+msgstr "우커머스 결제: 고객 정보 이후"
+
+#: integrations/woocommerce/admin-after.php:14
+msgid "Checkout for WooCommerce: After account info"
+msgstr "우커머스 체크아웃: 계정 정보 이후"
+
+#: integrations/woocommerce/admin-after.php:13
+msgid "Checkout for WooCommerce: Before complete order button"
+msgstr "우커머스 결제: 주문 완료 버튼 이전"
+
+#: includes/views/parts/admin-sidebar.php:34
+msgid "Privacy-friendly analytics plugin that does not use any external services."
+msgstr "외부 서비스를 사용하지 않는 개인 정보 보호 친화적인 분석 플러그인입니다."
+
+#: integrations/woocommerce/admin-after.php:4
+msgid "After email field"
+msgstr "이메일 입력란 이후"
+
+#: includes/views/parts/lists-overview.php:50
+msgid "Loading... Please wait."
+msgstr "로딩 중... 잠시 기다려 주시기 바랍니다."
+
+#. Plugin Name of the plugin
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr "MC4WP: 워드프레스용 메일침프"
+
+#: includes/admin/class-admin.php:313
+msgid "This is a premium feature. Please upgrade to Mailchimp for WordPress Premium to be able to use it."
+msgstr "이것은 프리미엄 기능입니다. 사용하려면 워드프레스용 메일침프 프리미엄으로 업그레이드하세요."
+
+#: includes/admin/class-admin.php:312
+msgid "The given value does not look like a valid Mailchimp API key."
+msgstr "제공된 값이 유효한 메일침프 API 키처럼 보이지 않습니다."
+
+#: includes/forms/views/tabs/form-settings.php:106
+msgid "Separate multiple values with a comma."
+msgstr "여러 값은 쉼표로 구분합니다."
+
+#: includes/forms/views/tabs/form-settings.php:105
+msgid "The listed tags will be applied to all subscribers added or updated by this form."
+msgstr "나열된 태그는 이 양식에 의해 추가되거나 업데이트된 모든 구독자에게 적용됩니다."
+
+#: includes/forms/views/tabs/form-settings.php:103
+msgid "Example: My tag, another tag"
+msgstr "예: 내 태그, 또 다른 태그"
+
+#: includes/forms/views/tabs/form-settings.php:101
+msgid "Subscriber tags"
+msgstr "구독자 태그"
+
+#: includes/integrations/views/integrations.php:40
+msgid "Not installed"
+msgstr "설치되지 않음"
+
+#: includes/integrations/views/integrations.php:38
+msgid "Inactive"
+msgstr "비활성"
+
+#: includes/integrations/views/integrations.php:36
+msgid "Active"
+msgstr "활성"
+
+#: integrations/woocommerce/admin-after.php:9
+msgid "After order notes"
+msgstr "주문 메모 이후"
+
+#: includes/views/general-settings.php:63
+msgid "You defined your Mailchimp API key using the <code>MC4WP_API_KEY</code> constant."
+msgstr "<code>MC4WP_API_KEY</code> 상수를 사용하여 메일침프 API 키를 정의했습니다."
+
+#: includes/forms/class-admin.php:73
+msgid "Link to your terms & conditions page"
+msgstr "이용약관 페이지 링크"
+
+#: includes/forms/class-admin.php:72
+msgid "Agree to terms"
+msgstr "약관에 동의"
+
+#: includes/forms/class-admin.php:71
+msgid "I have read and agree to the terms & conditions"
+msgstr "이용약관을 읽었으며 이에 동의합니다."
+
+#: includes/integrations/views/integration-settings.php:100
+#: includes/integrations/views/integration-settings.php:185
+#: integrations/gravity-forms/class-gravity-forms.php:131
+msgid "<strong>Warning: </strong> enabling this may affect your <a href=\"%s\">GDPR compliance</a>."
+msgstr "<strong>경고: </strong> 이 기능을 활성화하면 <a href=\"%s\">GDPR 준수</a>에 영향을 미칠 수 있습니다."
+
+#: includes/integrations/views/integration-settings.php:95
+msgid "Select \"yes\" if you want to subscribe people without asking them explicitly."
+msgstr "명시적으로 묻지 않고 사람들을 구독하려면 \"예\"를 선택하십시오."
+
+#: includes/integrations/views/integration-settings.php:91
+#: includes/integrations/views/integration-settings.php:178
+msgid "(recommended)"
+msgstr "(권장)"
+
+#: includes/forms/views/tabs/form-fields.php:27
+msgid "The form may look slightly different than this when shown in a post, page or widget area."
+msgstr "게시물, 페이지 또는 위젯 영역에 표시될 때 양식이 이와 약간 다르게 보일 수 있습니다."
+
+#: includes/forms/views/tabs/form-fields.php:20
+msgid "Form code"
+msgstr "양식 코드"
+
+#: includes/admin/class-ads.php:37 includes/admin/class-ads.php:38
+msgid "Add-ons"
+msgstr "부가 기능"
+
+#: includes/forms/views/tabs/form-settings.php:154
+msgid "Your \"subscribed\" message will not show when redirecting to another page, so make sure to let your visitors know they were successfully subscribed."
+msgstr "다른 페이지로 리디렉션할 때는 \"구독함\" 메시지가 표시되지 않으므로 방문자에게 성공적으로 구독했음을 알려야 합니다."
+
+#: includes/views/parts/admin-sidebar.php:46
+msgid "Super flexible forms using native HTML. Just like Mailchimp for WordPress forms but for other purposes, like a contact form."
+msgstr "기본 HTML을 사용하는 매우 유연한 양식. 워드프레스용 메일침프 양식과 비슷하지만 문의 양식과 같은 다른 용도로도 사용할 수 있습니다."
+
+#: includes/views/parts/admin-sidebar.php:40
+msgid "Pop-ups or boxes that slide-in with a newsletter sign-up form. A sure-fire way to grow your email lists."
+msgstr "뉴스레터 신청 양식과 함께 슬라이드 인되는 팝업 또는 박스. 이메일 목록을 늘리는 확실한 방법입니다."
+
+#: includes/views/parts/admin-sidebar.php:28
+msgid "Other plugins by ibericode"
+msgstr "이베리코드의 다른 플러그인"
+
+#: integrations/gravity-forms/class-gravity-forms.php:96
+msgid "Select a Mailchimp list"
+msgstr "메일침프 목록 선택"
+
+#. translators: %s links to the Gravity Forms overview page
+#: integrations/gravity-forms/admin-before.php:4
+msgid "To integrate with Gravity Forms, add the \"Mailchimp for WordPress\" field to <a href=\"%s\">one of your Gravity Forms forms</a>."
+msgstr "Gravity Forms와 통합하려면 \"워드프레스용 메일침프\" 필드를 <a href=\"%s\">Gravity Forms 양식 중 하나</a>에 추가하세요."
+
+#: includes/forms/class-form-element.php:82
+msgid "Leave this field empty if you're human:"
+msgstr "당신이 인간이라면 이 필드를 비워두세요:"
+
+#: integrations/wpforms/class-field.php:174
+msgid "Showing the first 20 choices.<br> All %d choices will be displayed when viewing the form."
+msgstr "처음 20개 선택 항목을 표시합니다.<br> 양식을 볼 때 모든 %d개의 선택 항목이 표시됩니다."
+
+#: integrations/wpforms/class-field.php:158
+msgid "(empty)"
+msgstr "(비어 있음)"
+
+#: integrations/wpforms/class-field.php:115
+msgid "Sign-up checkbox"
+msgstr "가입 체크박스"
+
+#: integrations/wpforms/class-field.php:104
+msgid "Set your sign-up label text and whether it should be pre-checked."
+msgstr "가입 레이블 텍스트와 사전 확인 여부를 설정합니다."
+
+#: integrations/gravity-forms/class-gravity-forms.php:93
+#: integrations/wpforms/class-field.php:79
+msgid "Mailchimp list"
+msgstr "메일침프 목록"
+
+#: integrations/wpforms/class-field.php:73
+msgid "Select the Mailchimp list to subscribe to."
+msgstr "구독할 메일침프 목록을 선택합니다."
+
+#: integrations/wpforms/class-field.php:18
+msgid "Sign-up to our newsletter?"
+msgstr "뉴스레터에 가입하시겠습니까?"
+
+#: integrations/wpforms/admin-before.php:2
+msgid "Use this integration by adding the \"Mailchimp\" field to <a href=\"%s\">your WPForms forms</a>."
+msgstr "이 통합 기능을 사용하려면 <a href=\"%s\">WPForms 양식</a>에 \"Mailchimp\" 필드를 추가하세요."
+
+#: includes/admin/class-admin.php:434
+msgid "Looks like your server is blocked by Mailchimp's firewall. Please contact Mailchimp support and include the following reference number: %s"
+msgstr "메일침프의 방화벽에 의해 서버가 차단된 것 같습니다. 다음 참조 번호를 포함해 메일침프 지원팀에 문의하세요: %s"
+
+#: includes/admin/class-admin.php:317
+msgid "Failed to renew your lists. An error occured."
+msgstr "목록을 갱신하지 못했습니다. 오류가 발생했습니다."
+
+#: integrations/ninja-forms/class-field.php:35
+msgid "Mailchimp opt-in"
+msgstr "메일침프 옵트인"
+
+#: integrations/ninja-forms/admin-before.php:2
+msgid "To integrate with Ninja Forms, add the \"Mailchimp\" action to <a href=\"%s\">one of your Ninja Forms forms</a>."
+msgstr "Ninja Forms와 통합하려면 \"메일침프\" 작업을 <a href=\"%s\">Ninja Forms 양식 중 하나</a>에 추가하세요."
+
+#: includes/integrations/views/integrations.php:126
+msgid "Greyed out integrations will become available after installing & activating the corresponding plugin."
+msgstr "회색으로 표시된 통합은 해당 플러그인을 설치하고 활성화한 후에 사용할 수 있게 됩니다."
+
+#: includes/views/other-settings.php:44
+msgid "Determines what events should be written to <a href=\"%s\">the debug log</a> (see below)."
+msgstr "<a href=\"%s\">디버그 로그</a>에 어떤 이벤트를 기록해야 하는지 결정합니다(아래 참조)."
+
+#: includes/views/other-settings.php:41
+msgid "Everything"
+msgstr "모두"
+
+#: includes/views/other-settings.php:40
+msgid "Errors & warnings only"
+msgstr "오류 및 경고만"
+
+#: includes/views/other-settings.php:37
+msgid "Logging"
+msgstr "로깅"
+
+#: includes/views/other-settings.php:14
+msgid "Miscellaneous settings"
+msgstr "기타 설정"
+
+#: includes/forms/class-admin.php:109
+msgid "Value"
+msgstr "값"
+
+#: includes/forms/class-admin.php:83
+msgid "Field type"
+msgstr "필드 유형"
+
+#: includes/forms/views/tabs/form-settings.php:54
+msgid "Are you sure you want to disable double opt-in?"
+msgstr "이중 옵트인을 비활성화하시겠습니까?"
+
+#: includes/admin/class-review-notice.php:72
+msgid "Dismiss this notice."
+msgstr "이 알림을 무시합니다."
+
+#: includes/admin/class-review-notice.php:70
+msgid "If you do, please <a href=\"%s\">leave us a 5★ rating on WordPress.org</a>. It would be of great help to us."
+msgstr "그렇다면 <a href=\"%s\">wordpress.org에 평점 5★을 남겨 주세요</a>. 큰 도움이 될 것입니다."
+
+#: includes/admin/class-review-notice.php:69
+msgid "You've been using Mailchimp for WordPress for some time now; we hope you love it!"
+msgstr "한동안 워드프레스용 메일침프를 사용해 왔습니다. 우리는 당신이 그것을 사랑 바랍니다!"
+
+#: includes/admin/class-ads.php:148
+msgid "<a href=\"%1$s\">Upgrade to Mailchimp for WordPress Premium</a> or <a href=\"%2$s\">read more about Mailchimp's E-Commerce features</a>."
+msgstr "<a href=\"%1$s\">워드프레스용 메일침프 프리미엄로 업그레이드</a>하거나 <a href=\"%2$s\">메일침프의 전자상거래 기능에 대해 자세히 알아보세요</a>."
+
+#: includes/admin/class-ads.php:145
+msgid "Do you want to track all WooCommerce orders in Mailchimp so you can send emails based on the purchase activity of your subscribers?"
+msgstr "구독자의 구매 활동을 기반으로 이메일을 보낼 수 있도록 메일침프에서 모든 우커머스 주문을 추적하고 싶으신가요?"
+
+#: includes/admin/class-admin.php:316
+msgid "Done! Mailchimp lists renewed."
+msgstr "완료! 메일침프 목록이 갱신되었습니다."
+
+#: includes/admin/class-admin.php:315
+msgid "Fetching Mailchimp lists"
+msgstr "메일침프 목록 가져오기"
+
+#: includes/admin/class-admin.php:442
+msgid "Mailchimp returned the following error:"
+msgstr "메일침프는 다음 오류를 반환했습니다."
+
+#: includes/admin/class-admin.php:437
+msgid "Here's some info on solving common connectivity issues."
+msgstr "다음은 일반적인 연결 문제 해결에 대한 정보입니다."
+
+#: includes/admin/class-admin.php:431
+msgid "Error connecting to Mailchimp:"
+msgstr "메일침프 연결 오류:"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:75
+#: integrations/ninja-forms/class-field.php:79
+msgid "Checked"
+msgstr "체크"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:71
+#: integrations/ninja-forms/class-field.php:81
+msgid "Unchecked"
+msgstr "체크 해제"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:54
+msgid "Right of Element"
+msgstr "요소의 오른쪽"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:50
+msgid "Below Element"
+msgstr "요소 아래"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:46
+msgid "Above Element"
+msgstr "요소 위"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:42
+msgid "Left of Element"
+msgstr "요소의 왼쪽"
+
+#: integrations/ninja-forms-2/admin-before.php:2
+msgid "To integrate with Ninja Forms, add the \"Mailchimp\" field to your Ninja Forms forms."
+msgstr "Ninja Forms와 통합하려면 Ninja Forms 양식에 \"메일침프\" 필드를 추가하십시오."
+
+#: includes/forms/views/tabs/form-messages.php:82
+msgid "The text that shows when an existing subscriber is updated."
+msgstr "기존 구독자가 업데이트될 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:79
+msgid "Updated"
+msgstr "업데이트됨"
+
+#: includes/class-dynamic-content-tags.php:27
+msgid "Data from a cookie."
+msgstr "쿠키의 데이터."
+
+#: includes/forms/class-admin.php:94
+msgid "List fields"
+msgstr "필드 목록"
+
+#: includes/forms/class-admin.php:90
+msgid "Interest categories"
+msgstr "관심 카테고리"
+
+#: includes/forms/class-admin.php:87
+msgid "Form fields"
+msgstr "양식 필드"
+
+#: includes/forms/class-admin.php:78
+msgid "Choose a field to add to the form"
+msgstr "양식에 추가할 필드 선택"
+
+#: config/default-form-messages.php:9
+msgid "Thank you, your records have been updated!"
+msgstr "감사합니다. 기록이 업데이트되었습니다!"
+
+#: includes/views/other-settings.php:105
+msgid "Please ensure %1$s has the proper <a href=\"%2$s\">file permissions</a>."
+msgstr "%1$s에 적절한 <a href=\"%2$s\">파일 권한</a>이 있는지 확인하세요."
+
+#: includes/views/other-settings.php:104
+msgid "Log file is not writable."
+msgstr "로그 파일을 쓸 수 없습니다."
+
+#: includes/forms/class-admin.php:102
+msgid "Remove"
+msgstr "제거"
+
+#: includes/forms/class-admin.php:101
+msgid "Preselect"
+msgstr "미리 선택"
+
+#: includes/forms/class-admin.php:98
+msgid "Optional"
+msgstr "옵션 사항"
+
+#: includes/admin/class-admin.php:511
+msgid "To get started with Mailchimp for WordPress, please <a href=\"%s\">enter your Mailchimp API key on the settings page of the plugin</a>."
+msgstr "워드프레스용 메일침프를 시작하려면 <a href=\"%s\">플러그인의 설정 페이지에 메일침프 API 키를 입력</a>하세요."
+
+#: integrations/woocommerce/admin-after.php:8
+msgid "Before submit button"
+msgstr "전송 버튼 이전"
+
+#: integrations/woocommerce/admin-after.php:36
+msgid "Position"
+msgstr "포지션"
+
+#: integrations/woocommerce/admin-after.php:7
+msgid "After customer details"
+msgstr "고객 세부 정보 이후"
+
+#: integrations/woocommerce/admin-after.php:6
+msgid "After shipping details"
+msgstr "배송 세부 사항 이후"
+
+#: includes/class-dynamic-content-tags.php:74
+msgid "Property of the current page or post."
+msgstr "현재 페이지 또는 게시물의 속성입니다."
+
+#: includes/forms/views/tabs/form-messages.php:68
+msgid "When offering a list choice, this is the text that shows when no lists were selected."
+msgstr "목록 선택 사항을 제공할 때 선택된 목록이 없을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:65
+msgid "No list selected"
+msgstr "선택한 목록 없음"
+
+#: includes/forms/class-admin.php:466
+msgid "Select the form to show"
+msgstr "표시할 양식 선택"
+
+#: includes/views/other-settings.php:144
+msgid "Right now, the plugin is configured to only log errors and warnings."
+msgstr "현재 플러그인은 오류 및 경고만 기록하도록 구성되어 있습니다."
+
+#: includes/forms/class-admin.php:110
+msgid "Text to prefill this field with."
+msgstr "이 필드를 미리 채울 텍스트입니다."
+
+#: includes/forms/class-admin.php:100
+msgid "Text to show when field has no value."
+msgstr "필드에 값이 없을 때 표시할 텍스트입니다."
+
+#: includes/views/other-settings.php:136
+msgid "Empty Log"
+msgstr "빈 로그"
+
+#: includes/views/other-settings.php:126
+msgid "Nothing here. Which means there are no errors!"
+msgstr "아무것도 없습니다. 즉, 오류가 없습니다!"
+
+#: includes/views/other-settings.php:99
+msgid "Filter.."
+msgstr "필터.."
+
+#: includes/views/other-settings.php:99
+msgid "Debug Log"
+msgstr "디버그 로그"
+
+#: includes/forms/class-admin.php:88
+msgid "This field is marked as required in Mailchimp."
+msgstr "이 필드는 메일침프에서 필수로 표시됩니다."
+
+#: includes/admin/class-admin.php:481
+msgid "Log successfully emptied."
+msgstr "로그가 비워졌습니다."
+
+#: includes/admin/class-admin.php:353
+msgid "Other"
+msgstr "기타"
+
+#: includes/admin/class-admin.php:352 includes/views/other-settings.php:60
+#: includes/views/other-settings.php:70
+msgid "Other Settings"
+msgstr "기타 설정"
+
+#: integrations/custom/admin-before.php:9
+msgid "Subscribe to our newsletter."
+msgstr "뉴스레터를 구독하세요."
+
+#: includes/views/parts/admin-sidebar.php:18
+msgid "Found a bug? Please <a href=\"%s\">open an issue on GitHub</a>."
+msgstr "버그를 찾았습니까? <a href=\"%s\">GitHub에서 문제를 여세요</a>."
+
+#: includes/admin/class-ads.php:107
+msgid "Are you enjoying this plugin? The Premium add-on unlocks several powerful features. <a href=\"%s\">Find out about all benefits now</a>."
+msgstr "이 플러그인을 즐기고 있습니까? 프리미엄 애드온은 몇 가지 강력한 기능을 잠금 해제합니다. <a href=\"%s\">지금 모든 혜택에 대해 알아보십시오</a>."
+
+#: includes/admin/class-ads.php:102
+msgid "Do you want to create more than one form? Our Premium add-on does just that! <a href=\"%s\">Have a look at all Premium benefits</a>."
+msgstr "둘 이상의 양식을 작성하시겠습니까? 프리미엄 애드온이 바로 그 기능을 제공합니다! <a href=\"%s\">모든 프리미엄 혜택을 살펴보세요</a>."
+
+#: includes/admin/class-ads.php:97
+msgid "Do you want translated forms for all of your languages? <a href=\"%s\">Try Mailchimp for WordPress Premium</a>, which does just that plus more."
+msgstr "모든 언어로 번역된 양식을 원하십니까? 이 외에도 다양한 기능을 제공하는 <a href=\"%s\">워드프레스용 메일침프 프리미엄</a>을 사용해 보세요."
+
+#: includes/admin/class-ads.php:85
+msgid "Upgrade to Premium"
+msgstr "프리미엄으로 업그레이드"
+
+#: includes/admin/class-ads.php:71
+msgid "Increased conversions? <a href=\"%s\">Mailchimp for WordPress Premium</a> submits forms without reloading the entire page, resulting in a much better experience for your visitors."
+msgstr "전환율 증가? <a href=\"%s\">워드프레스용 메일침프 프리미엄</a>은 전체 페이지를 다시 로드하지 않고 양식을 제출하므로 방문자에게 훨씬 더 나은 경험을 제공합니다."
+
+#: includes/admin/class-ads.php:69
+msgid "Be notified whenever someone subscribes? <a href=\"%s\">Mailchimp for WordPress Premium</a> allows you to set up email notifications for your forms."
+msgstr "누군가 구독할 때마다 알림을 받습니까? <a href=\"%s\">워드프레스용 메일침프 프리미엄</a>을 사용하면 양식에 대한 이메일 알림을 설정할 수 있습니다."
+
+#: includes/admin/class-ads.php:54
+msgid "Want to customize the style of your form? <a href=\"%s\">Try our Styles Builder</a> & edit the look of your forms with just a few clicks."
+msgstr "양식 스타일을 사용자 정의하고 싶습니까? <a href=\"%s\">스타일 빌더를 사용</a>하고 몇 번의 클릭만으로 양식의 모양을 편집하십시오."
+
+#: includes/views/parts/admin-sidebar.php:17
+msgid "If your answer can not be found in the resources listed above, please use the <a href=\"%s\">support forums on WordPress.org</a>."
+msgstr "위에 나열된 리소스에서 답변을 찾을 수 없는 경우 <a href=\"%s\">wordpress.org의 지원 포럼</a>을 사용하세요."
+
+#: includes/views/parts/admin-sidebar.php:15
+msgid "Frequently Asked Questions"
+msgstr "자주 묻는 질문"
+
+#: includes/views/parts/admin-sidebar.php:14
+msgid "Knowledge Base"
+msgstr "기술 자료"
+
+#: includes/views/parts/admin-sidebar.php:12
+msgid "We have some resources available to help you in the right direction."
+msgstr "올바른 방향으로 가는 데 도움이 되는 몇 가지 리소스가 있습니다."
+
+#: includes/integrations/views/integrations.php:116
+msgid "Click on the name of an integration to edit all settings specific to that integration."
+msgstr "통합의 이름을 클릭하면 해당 통합과 관련된 모든 설정을 편집할 수 있습니다."
+
+#: includes/integrations/views/integrations.php:115
+msgid "The table below shows all available integrations."
+msgstr "아래 표는 사용 가능한 모든 통합을 보여줍니다."
+
+#: includes/forms/class-admin.php:124 includes/forms/views/edit-form.php:26
+msgid "Form"
+msgstr "양식"
+
+#: includes/forms/class-admin.php:111
+msgid "ZIP"
+msgstr "우편번호"
+
+#: includes/forms/class-admin.php:105
+msgid "State"
+msgstr "주"
+
+#: includes/forms/class-admin.php:104
+msgid "Street Address"
+msgstr "번지:"
+
+#: includes/forms/class-admin.php:103
+msgid "Radio buttons"
+msgstr "라디오 버튼"
+
+#: includes/forms/class-admin.php:97
+msgid "No available fields. Did you select a Mailchimp list in the form settings?"
+msgstr "사용 가능한 필드가 없습니다. 양식 설정에서 메일침프 목록을 선택하셨나요?"
+
+#: includes/forms/class-admin.php:96
+msgid "Max"
+msgstr "최대"
+
+#: includes/forms/class-admin.php:95
+msgid "Min"
+msgstr "최소"
+
+#: includes/forms/class-admin.php:93
+msgid "This field will allow your visitors to choose a list to subscribe to."
+msgstr "이 필드에서는 방문자가 구독할 목록을 선택할 수 있습니다."
+
+#: includes/forms/class-admin.php:91
+msgid "Is this field required?"
+msgstr "이 필드는 필수 입력 사항입니까?"
+
+#: includes/forms/class-admin.php:86
+msgid "This field will allow your visitors to choose whether they would like to subscribe or unsubscribe"
+msgstr "이 필드를 통해 방문자는 구독 또는 구독 취소 여부를 선택할 수 있습니다."
+
+#: includes/forms/class-admin.php:85
+msgid "Form action"
+msgstr "양식 작업"
+
+#: includes/forms/class-admin.php:84
+msgid "Field label"
+msgstr "필드 레이블"
+
+#: includes/forms/class-admin.php:81
+msgid "Dropdown"
+msgstr "드랍다운"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:80
+msgid "Default Value"
+msgstr "기본 값"
+
+#: includes/forms/class-admin.php:80
+msgid "Country"
+msgstr "국가"
+
+#: includes/forms/class-admin.php:79
+msgid "Close"
+msgstr "닫기"
+
+#: includes/forms/class-admin.php:77
+msgid "Choice type"
+msgstr "선택 유형"
+
+#: includes/forms/class-admin.php:76
+msgid "Choices"
+msgstr "선택"
+
+#: includes/forms/class-admin.php:74
+msgid "City"
+msgstr "도시"
+
+#. Description of the plugin
+msgid "Mailchimp for WordPress by ibericode. Adds various highly effective sign-up methods to your site."
+msgstr "이베리코드의 워드프레스용 메일침프. 귀하의 사이트에 매우 효과적인 다양한 가입 방법을 추가합니다."
+
+#: integrations/woocommerce/class-woocommerce.php:176
+msgid "Order #%d"
+msgstr "주문 #%d"
+
+#: integrations/custom/admin-before.php:2
+msgid "To get a custom integration to work, include the following HTML in the form you are trying to integrate with."
+msgstr "사용자 정의 통합이 작동하도록 하려면 통합하려는 양식에 다음 HTML을 포함하십시오."
+
+#: integrations/contact-form-7/admin-before.php:2
+msgid "To integrate with Contact Form 7, configure the settings below and then add %s to your CF7 form mark-up."
+msgstr "Contact Form 7과 통합하려면 아래 설정을 구성한 다음 Contact Form 7 양식 마크업에 %s를 추가하십시오."
+
+#: includes/views/parts/lists-overview.php:49
+msgid "Edit this list in Mailchimp"
+msgstr "메일침프에서 이 목록 편집"
+
+#: includes/views/parts/lists-overview.php:29
+msgid "Subscribers"
+msgstr "가입자"
+
+#: includes/views/parts/lists-overview.php:28
+msgid "ID"
+msgstr "아이디"
+
+#: includes/views/parts/lists-overview.php:27
+msgid "List Name"
+msgstr "목록 이름"
+
+#: includes/views/parts/lists-overview.php:2
+msgid "The table below shows your Mailchimp lists and their details. If you just applied changes to your Mailchimp lists, please use the following button to renew the cached lists configuration."
+msgstr "아래 표는 메일침프 목록과 세부 정보를 보여줍니다. 메일침프 목록에 변경 사항을 방금 적용한 경우 다음 버튼을 사용하여 캐시된 목록 구성을 갱신하십시오."
+
+#: includes/views/parts/lists-overview.php:1
+msgid "Your Mailchimp Account"
+msgstr "메일침프 계정"
+
+#: includes/views/other-settings.php:31
+msgid "This is what we track."
+msgstr "이것이 우리가 추적하는 것입니다."
+
+#: includes/views/other-settings.php:29
+msgid "Allow us to anonymously track how this plugin is used to help us make it better fit your needs."
+msgstr "이 플러그인이 어떻게 사용되는지 익명으로 추적하여 사용자의 요구에 더 잘 맞도록 개선할 수 있도록 도와주세요."
+
+#: includes/integrations/views/integrations.php:20
+msgid "Configure this integration"
+msgstr "이 통합을 구성하세요."
+
+#: includes/integrations/views/integrations.php:61
+msgid "Description"
+msgstr "설명"
+
+#: includes/integrations/views/integrations.php:60
+msgid "Name"
+msgstr "이름"
+
+#: includes/integrations/views/integration-settings.php:28
+msgid "Please ensure you <a href=\"%1$s\">configure the plugin to send all required fields</a> or <a href=\"%2$s\">log into your Mailchimp account</a> and make sure only the email & name fields are marked as required fields for the selected list(s)."
+msgstr "<a href=\"%1$s\">모든 필수 필드를 전송하도록 플러그인을 구성</a>하거나 <a href=\"%2$s\">메일침프 계정에 로그인</a>했는지 확인하세요. 이메일 및 이름 필드만 선택한 목록의 필수 필드로 표시되어 있는지 확인하십시오."
+
+#: includes/integrations/views/integration-settings.php:27
+msgid "The selected Mailchimp lists require non-default fields, which may prevent this integration from working."
+msgstr "선택한 메일침프 목록에는 기본이 아닌 필드가 필요하므로 이 통합이 작동하지 않을 수 있습니다."
+
+#: includes/integrations/views/integration-settings.php:181
+#: integrations/gravity-forms/class-gravity-forms.php:129
+msgid "Select \"yes\" if the checkbox should be pre-checked."
+msgstr "확인란을 미리 선택해야 하는 경우 \"예\"를 선택하십시오."
+
+#: includes/integrations/views/integration-settings.php:88
+msgid "Implicit?"
+msgstr "암묵적?"
+
+#: includes/integrations/views/integration-settings.php:68
+msgid "Enable the %s integration? This will add a sign-up checkbox to the form."
+msgstr "%s 통합을 활성화하시겠습니까? 이렇게 하면 양식에 가입 확인란이 추가됩니다."
+
+#: includes/integrations/views/integration-settings.php:64
+msgid "Enabled?"
+msgstr "활성화?"
+
+#: includes/integrations/views/integration-settings.php:20
+msgid "%s integration"
+msgstr "%s 통합"
+
+#: includes/integrations/class-admin.php:72
+#: includes/integrations/class-admin.php:73
+#: includes/integrations/views/integration-settings.php:10
+#: includes/integrations/views/integrations.php:101
+#: includes/integrations/views/integrations.php:109
+#: includes/integrations/views/integrations.php:123
+msgid "Integrations"
+msgstr "통합"
+
+#: includes/forms/views/tabs/form-settings.php:121
+msgid "Form behaviour"
+msgstr "양식 동작"
+
+#: includes/forms/views/tabs/form-settings.php:95
+#: includes/integrations/views/integration-settings.php:283
+msgid "What does this do?"
+msgstr "이 기능은 무엇을 하나요?"
+
+#: includes/forms/views/tabs/form-settings.php:94
+#: includes/integrations/views/integration-settings.php:282
+msgid "Select \"no\" if you want to add the selected interests to any previously selected interests when updating a subscriber."
+msgstr "구독자를 업데이트할 때 이전에 선택한 관심사에 선택한 관심사를 추가하지 않으려면 \"아니요\"를 선택합니다."
+
+#: includes/forms/views/tabs/form-settings.php:72
+#: includes/integrations/views/integration-settings.php:256
+msgid "Select \"yes\" if you want to update existing subscribers with the data that is sent."
+msgstr "전송된 데이터로 기존 가입자를 업데이트하려면 \"예\"를 선택하십시오."
+
+#: includes/forms/views/tabs/form-settings.php:47
+#: integrations/ninja-forms/class-action.php:29
+msgid "Use double opt-in?"
+msgstr "이중 옵트인을 사용하시겠습니까?"
+
+#: includes/forms/views/tabs/form-settings.php:5
+msgid "Mailchimp specific settings"
+msgstr "메일침프 특정 설정"
+
+#: includes/forms/views/tabs/form-messages.php:6
+msgid "Form Messages"
+msgstr "양식 메시지"
+
+#: includes/forms/views/tabs/form-fields.php:22
+msgid "Enter the HTML code for your form fields.."
+msgstr "양식 필드에 대한 HTML 코드를 입력하십시오.."
+
+#: includes/forms/views/tabs/form-fields.php:13
+msgid "Form Fields"
+msgstr "양식 필드"
+
+#: includes/forms/views/tabs/form-fields.php:6
+msgid "Form variables"
+msgstr "양식 변수"
+
+#: includes/forms/views/tabs/form-appearance.php:29
+msgid "Form Style"
+msgstr "양식 스타일"
+
+#: includes/forms/views/tabs/form-appearance.php:25
+msgid "Form Appearance"
+msgstr "양식 외관"
+
+#: includes/forms/views/tabs/form-appearance.php:7
+msgid "Form Themes"
+msgstr "양식 테마"
+
+#: includes/forms/views/tabs/form-appearance.php:6
+msgid "Basic"
+msgstr "기본"
+
+#: includes/forms/views/tabs/form-appearance.php:5
+msgid "Inherit from %s theme"
+msgstr "%s 테마에서 상속"
+
+#: includes/forms/views/parts/dynamic-content-tags.php:6
+msgid "Add dynamic form variable"
+msgstr "동적 양식 변수 추가"
+
+#: includes/forms/views/parts/add-fields-help.php:42
+msgid "Click the following button to have Mailchimp for WordPress pick up on your changes."
+msgstr "다음 버튼을 클릭하여 워드프레스용 메일침프에서 변경 사항을 적용하도록 합니다."
+
+#: includes/forms/views/parts/add-fields-help.php:31
+msgid "Edit list fields for"
+msgstr "다음에 대한 목록 필드 편집"
+
+#: includes/forms/views/parts/add-fields-help.php:23
+msgid "Clicking the following links will take you to the right screen."
+msgstr "다음 링크를 클릭하면 오른쪽 화면으로 이동합니다."
+
+#: includes/forms/views/parts/add-fields-help.php:22
+msgid "Add list fields to any of your selected lists."
+msgstr "선택한 목록에 목록 필드를 추가합니다."
+
+#: includes/forms/views/parts/add-fields-help.php:17
+msgid "Log in to your Mailchimp account."
+msgstr "메일침프 계정에 로그인합니다."
+
+#: includes/forms/views/parts/add-fields-help.php:12
+msgid "Here's how:"
+msgstr "방법은 다음과 같습니다."
+
+#: includes/forms/views/parts/add-fields-help.php:9
+msgid "To add more fields to your form, you will need to create those fields in Mailchimp first."
+msgstr "양식에 더 많은 필드를 추가하려면 먼저 메일침프에서 해당 필드를 만들어야 합니다."
+
+#: includes/forms/views/parts/add-fields-help.php:4
+#: includes/forms/views/tabs/form-fields.php:10
+msgid "Add more fields"
+msgstr "더 많은 필드 추가"
+
+#: includes/forms/views/edit-form.php:63
+msgid "Enter the title of your sign-up form"
+msgstr "가입 양식의 제목을 입력하세요."
+
+#: includes/forms/views/edit-form.php:59
+msgid "Enter form title here"
+msgstr "여기에 양식 제목 입력"
+
+#: includes/forms/views/edit-form.php:34
+msgid "Edit Form"
+msgstr "양식 편집"
+
+#: includes/forms/views/edit-form.php:22
+#: includes/integrations/views/integration-settings.php:8
+#: includes/integrations/views/integrations.php:99
+#: includes/views/general-settings.php:7 includes/views/other-settings.php:58
+msgid "You are here: "
+msgstr "현재 위치: "
+
+#: includes/forms/views/edit-form.php:7
+msgid "Appearance"
+msgstr "외모"
+
+#: includes/forms/views/edit-form.php:5
+msgid "Messages"
+msgstr "메시지"
+
+#: includes/forms/views/edit-form.php:4
+msgid "Fields"
+msgstr "필드"
+
+#: includes/forms/views/add-form.php:61
+msgid "No lists found. Did you <a href=\"%s\">connect with Mailchimp</a>?"
+msgstr "목록을 찾을 수 없습니다. <a href=\"%s\">메일침프와 연결하셨습니까</a>?"
+
+#: includes/forms/views/add-form.php:36
+msgid "To which Mailchimp lists should this form subscribe?"
+msgstr "이 양식이 구독해야 하는 메일침프 목록은 무엇입니까?"
+
+#: includes/forms/views/add-form.php:29
+msgid "Enter your form title.."
+msgstr "양식 제목을 입력하세요.."
+
+#: includes/forms/views/add-form.php:26
+msgid "What is the name of this form?"
+msgstr "이 양식의 이름은 무엇입니까?"
+
+#: includes/forms/views/add-form.php:10 includes/forms/views/add-form.php:69
+msgid "Add new form"
+msgstr "새 양식 추가"
+
+#: includes/forms/class-form.php:26
+msgid "There is no form with ID %d, perhaps it was deleted?"
+msgstr "ID가 %d인 양식이 없습니다. 삭제되었을 수 있습니까?"
+
+#: includes/class-dynamic-content-tags.php:68
+msgid "The property of the currently logged-in user."
+msgstr "현재 로그인한 사용자의 속성입니다."
+
+#: includes/class-dynamic-content-tags.php:63
+msgid "The visitor's IP address. Example: %s."
+msgstr "방문자의 IP 주소입니다. 예: %s."
+
+#: includes/class-dynamic-content-tags.php:58
+msgid "The site's language. Example: %s."
+msgstr "사이트의 언어입니다. 예: %s."
+
+#: includes/class-dynamic-content-tags.php:53
+msgid "The current time. Example: %s."
+msgstr "현재 시간. 예: %s."
+
+#: includes/class-dynamic-content-tags.php:48
+msgid "The current date. Example: %s."
+msgstr "현재 날짜입니다. 예: %s."
+
+#: includes/class-dynamic-content-tags.php:43
+msgid "The path of the page."
+msgstr "페이지의 경로입니다."
+
+#: includes/class-dynamic-content-tags.php:38
+msgid "The URL of the page."
+msgstr "페이지의 URL입니다."
+
+#: includes/class-dynamic-content-tags.php:33
+msgid "The email address of the current visitor (if known)."
+msgstr "현재 방문자의 이메일 주소(알고 있는 경우)."
+
+#: includes/forms/class-form-tags.php:39
+msgid "Data from the URL or a submitted form."
+msgstr "URL 또는 제출된 양식의 데이터입니다."
+
+#: includes/forms/views/tabs/form-fields.php:26
+msgid "Form preview"
+msgstr "양식 미리보기"
+
+#: includes/forms/class-admin.php:399
+msgid "Go back"
+msgstr "뒤로 가기"
+
+#: includes/forms/class-admin.php:397
+msgid "Form not found."
+msgstr "양식을 찾을 수 없습니다."
+
+#: includes/admin/migrations/3.0.0-form-1-post-type.php:35
+msgid "Default sign-up form"
+msgstr "기본 가입 양식"
+
+#: includes/admin/class-usage-tracking.php:52
+msgid "Once a month"
+msgstr "한달에 한번"
+
+#: includes/admin/class-admin.php:223
+msgid "Success! The cached configuration for your Mailchimp lists has been renewed."
+msgstr "성공! 메일침프 목록의 캐시된 구성이 갱신되었습니다."
+
+#: includes/admin/class-admin-texts.php:84
+msgid "Documentation"
+msgstr "문서화"
+
+#: config/default-form-messages.php:37
+msgid "Please select at least one list."
+msgstr "하나 이상의 목록을 선택하십시오."
+
+#: includes/views/general-settings.php:57
+msgid "The API key for connecting with your Mailchimp account."
+msgstr "메일침프 계정과 연결하기 위한 API 키입니다."
+
+#: includes/integrations/views/integrations.php:62
+#: includes/views/general-settings.php:34
+msgid "Status"
+msgstr "상태"
+
+#: includes/views/other-settings.php:17
+msgid "Usage Tracking"
+msgstr "사용량 추적"
+
+#. Author URI of the plugin
+msgid "https://ibericode.com/"
+msgstr "https://ibericode.com/"
+
+#. Author of the plugin
+msgid "ibericode"
+msgstr "이베리코드"
+
+#. Plugin URI of the plugin
+msgid "https://www.mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page"
+msgstr "https://www.mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page"
+
+#: includes/views/parts/admin-sidebar.php:11
+msgid "Looking for help?"
+msgstr "도움이 필요하세요?"
+
+#: includes/views/parts/admin-footer.php:31
+msgid "This plugin is not developed by or affiliated with Mailchimp in any way."
+msgstr "이 플러그인은 어떤 식으로든 메일침프에서 개발하거나 제휴하지 않습니다."
+
+#. translators: %s links to the WordPress.org translation project
+#: includes/views/parts/admin-footer.php:13
+msgid "Mailchimp for WordPress is in need of translations. Is the plugin not translated in your language or do you spot errors with the current translations? Helping out is easy! Please <a href=\"%s\">help translate the plugin using your WordPress.org account</a>."
+msgstr "워드프레스용 메일침프는 번역이 필요합니다. 플러그인이 귀하의 언어로 번역되지 않았거나 현재 번역에 오류가 있습니까? 도와주는 것은 쉽습니다! <a href=\"%s\">wordpress.org 계정을 사용하여 플러그인 번역을 도와주세요</a>."
+
+#: includes/forms/class-admin.php:70
+msgid "Add to form"
+msgstr "양식에 추가"
+
+#: includes/forms/class-admin.php:108
+msgid "Wrap in paragraph tags?"
+msgstr "단락 태그로 감싸시겠습니까?"
+
+#: includes/forms/class-admin.php:99
+msgid "Placeholder"
+msgstr "자리 표시자"
+
+#: includes/forms/class-admin.php:92
+msgid "List choice"
+msgstr "목록 선택"
+
+#: includes/forms/class-admin.php:107
+msgid "Submit button"
+msgstr "전송 버튼"
+
+#: includes/forms/class-form-tags.php:45
+#: includes/integrations/class-integration-tags.php:30
+msgid "Replaced with the number of subscribers on the selected list(s)"
+msgstr "선택한 목록의 구독자 수로 대체됨"
+
+#: includes/forms/class-form-tags.php:34
+msgid "Replaced with the form response (error or success messages)."
+msgstr "양식 응답(오류 또는 성공 메시지)으로 대체됩니다."
+
+#: includes/forms/views/parts/dynamic-content-tags.php:8
+msgid "This allows you to personalise your form or response messages."
+msgstr "이를 통해 양식 또는 응답 메시지를 개인화할 수 있습니다."
+
+#: includes/forms/views/parts/dynamic-content-tags.php:8
+msgid "The following list of variables can be used to <a href=\"%s\">add some dynamic content to your form or success and error messages</a>."
+msgstr "다음 변수 목록을 사용하여 <a href=\"%s\">양식 또는 성공 및 오류 메시지에 일부 동적 콘텐츠를 추가</a>할 수 있습니다."
+
+#: includes/forms/views/tabs/form-messages.php:94
+msgid "HTML tags like %s are allowed in the message fields."
+msgstr "메시지 필드에는 %s와 같은 HTML 태그가 허용됩니다."
+
+#: includes/forms/views/tabs/form-messages.php:61
+msgid "When using the unsubscribe method, this is the text that shows when the given email address is not on the selected list(s)."
+msgstr "수신 거부 방법을 사용할 때 지정된 이메일 주소가 선택한 목록에 없을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:58
+msgid "Not subscribed"
+msgstr "구독하지 않음"
+
+#: includes/forms/views/tabs/form-messages.php:54
+msgid "When using the unsubscribe method, this is the text that shows when the given email address is successfully unsubscribed from the selected list(s)."
+msgstr "수신 거부 방법을 사용하는 경우, 선택한 목록에서 지정된 이메일 주소가 성공적으로 수신 거부되었을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:51
+msgid "Unsubscribed"
+msgstr "구독취소"
+
+#: includes/forms/views/tabs/form-messages.php:47
+msgid "The text that shows when a general error occured."
+msgstr "일반적인 오류가 발생했을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:44
+msgid "General error"
+msgstr "일반적인 오류"
+
+#: includes/forms/views/tabs/form-messages.php:40
+msgid "The text that shows when the given email is already subscribed to the selected list(s)."
+msgstr "입력한 이메일이 선택한 목록에 이미 가입되어 있을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:37
+msgid "Already subscribed"
+msgstr "이미 구독 중"
+
+#: includes/forms/views/tabs/form-messages.php:33
+msgid "The text that shows when a required field for the selected list(s) is missing."
+msgstr "선택한 목록에 대한 필수 필드가 누락되었을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:30
+msgid "Required field missing"
+msgstr "필수 필드 누락"
+
+#: includes/forms/views/tabs/form-messages.php:26
+msgid "The text that shows when an invalid email address is given."
+msgstr "유효하지 않은 이메일 주소가 제공되었을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:23
+msgid "Invalid email address"
+msgstr "잘못된 이메일 주소"
+
+#: includes/forms/views/tabs/form-messages.php:19
+msgid "The text that shows when an email address is successfully subscribed to the selected list(s)."
+msgstr "이메일 주소가 선택한 목록에 성공적으로 가입되었을 때 표시되는 텍스트입니다."
+
+#: includes/forms/views/tabs/form-messages.php:16
+msgid "Successfully subscribed"
+msgstr "성공적으로 구독했습니다"
+
+#: includes/forms/views/tabs/form-settings.php:151
+msgid "Leave empty or enter <code>0</code> for no redirect. Otherwise, use complete (absolute) URLs, including <code>http://</code>."
+msgstr "비워 두거나 리디렉션하지 않으려면 <code>0</code>을 입력하십시오. 그렇지 않으면 <code>http://</code>를 포함하여 완전한(절대) URL을 사용하십시오."
+
+#: includes/forms/views/tabs/form-settings.php:149
+msgid "Example: %s"
+msgstr "예: %s"
+
+#: includes/forms/views/tabs/form-settings.php:147
+msgid "Redirect to URL after successful sign-ups"
+msgstr "성공적인 가입 후 URL로 리디렉션"
+
+#: includes/forms/views/tabs/form-settings.php:142
+msgid "Select \"yes\" to hide the form fields after a successful sign-up."
+msgstr "성공적으로 가입한 후 양식 필드를 숨기려면 \"예\"를 선택하십시오."
+
+#: includes/forms/views/tabs/form-settings.php:131
+msgid "Hide form after a successful sign-up?"
+msgstr "성공적으로 가입한 후 양식을 숨기시겠습니까?"
+
+#: includes/forms/views/tabs/form-settings.php:83
+#: includes/integrations/views/integration-settings.php:271
+msgid "Replace interest groups?"
+msgstr "관심 그룹을 바꾸시겠습니까?"
+
+#: includes/forms/views/tabs/form-settings.php:62
+#: includes/integrations/views/integration-settings.php:246
+#: integrations/ninja-forms/class-action.php:48
+msgid "Update existing subscribers?"
+msgstr "기존 가입자를 업데이트하시겠습니까?"
+
+#: includes/forms/views/edit-form.php:67
+#: includes/forms/views/tabs/form-fields.php:39
+msgid "Use the shortcode %s to display this form inside a post, page or text widget."
+msgstr "게시물, 페이지 또는 텍스트 위젯 안에 이 양식을 표시하려면 쇼트코드 %s를 사용하세요."
+
+#: includes/forms/views/tabs/form-settings.php:39
+msgid "Select the list(s) to which people who submit this form should be subscribed."
+msgstr "이 양식을 제출하는 사람이 구독해야 하는 목록을 선택하십시오."
+
+#: includes/forms/views/tabs/form-settings.php:15
+msgid "Lists this form subscribes to"
+msgstr "이 양식이 구독하는 목록"
+
+#: includes/forms/views/tabs/form-appearance.php:50
+msgid "If you want to load some default CSS styles, select \"basic formatting styles\" or choose one of the color themes"
+msgstr "일부 기본 CSS 스타일을 로드하려면 \"기본 서식 스타일\"을 선택하거나 색상 테마 중 하나를 선택하세요."
+
+#: includes/forms/views/tabs/form-appearance.php:9
+msgid "Dark Theme"
+msgstr "어두운 테마"
+
+#: includes/forms/views/tabs/form-appearance.php:12
+msgid "Blue Theme"
+msgstr "블루 테마"
+
+#: includes/forms/views/tabs/form-appearance.php:11
+msgid "Green Theme"
+msgstr "그린 테마"
+
+#: includes/forms/views/tabs/form-appearance.php:10
+msgid "Red Theme"
+msgstr "레드 테마"
+
+#: includes/forms/views/tabs/form-appearance.php:8
+msgid "Light Theme"
+msgstr "밝은 테마"
+
+#: integrations/woocommerce/admin-after.php:5
+msgid "After billing details"
+msgstr "청구 세부 사항 이후"
+
+#: includes/integrations/views/integration-settings.php:212
+msgid "Select \"yes\" if the checkbox appears in a weird place."
+msgstr "확인란이 이상한 위치에 나타나면 \"예\"를 선택하십시오."
+
+#: includes/integrations/views/integration-settings.php:208
+msgid "Load some default CSS?"
+msgstr "일부 기본 CSS를 로드하시겠습니까?"
+
+#: includes/integrations/views/integration-settings.php:175
+#: integrations/gravity-forms/class-gravity-forms.php:121
+msgid "Pre-check the checkbox?"
+msgstr "확인란을 미리 선택하시겠습니까?"
+
+#: includes/integrations/views/integration-settings.php:159
+msgid "HTML tags like %s are allowed in the label text."
+msgstr "레이블 텍스트에는 %s와 같은 HTML 태그가 허용됩니다."
+
+#: includes/integrations/views/integration-settings.php:156
+msgid "Checkbox label text"
+msgstr "확인란 레이블 텍스트"
+
+#: includes/integrations/views/integration-settings.php:234
+#: integrations/gravity-forms/class-gravity-forms.php:116
+msgid "Select \"yes\" if you want people to confirm their email address before being subscribed (recommended)"
+msgstr "사람들이 구독하기 전에 자신의 이메일 주소를 확인하도록 하려면 \"예\"를 선택하십시오(권장)."
+
+#: includes/integrations/views/integration-settings.php:223
+#: integrations/gravity-forms/class-gravity-forms.php:109
+msgid "Double opt-in?"
+msgstr "더블 옵트인?"
+
+#: includes/integrations/views/integration-settings.php:136
+#: integrations/gravity-forms/class-gravity-forms.php:104
+msgid "Select the list(s) to which people who check the checkbox should be subscribed."
+msgstr "확인란을 선택한 사람이 구독해야 하는 목록을 선택합니다."
+
+#: includes/forms/views/tabs/form-settings.php:20
+#: includes/integrations/views/integration-settings.php:140
+msgid "No lists found, <a href=\"%s\">are you connected to Mailchimp</a>?"
+msgstr "목록을 찾을 수 없습니다. <a href=\"%s\">메일침프에 연결되어 있습니까</a>?"
+
+#: includes/integrations/views/integration-settings.php:122
+msgid "Mailchimp Lists"
+msgstr "메일침프 목록"
+
+#: includes/views/parts/lists-overview.php:22
+msgid "A total of %d lists were found in your Mailchimp account."
+msgstr "메일침프 계정에서 총 %d개의 목록이 발견되었습니다."
+
+#: includes/views/parts/lists-overview.php:19
+msgid "No lists were found in your Mailchimp account"
+msgstr "메일침프 계정에서 목록을 찾을 수 없습니다."
+
+#: includes/admin/class-admin.php:314
+#: includes/forms/views/parts/add-fields-help.php:58
+#: includes/views/parts/lists-overview.php:10
+msgid "Renew Mailchimp lists"
+msgstr "메일침프 목록 갱신"
+
+#: includes/views/general-settings.php:58
+msgid "Get your API key here."
+msgstr "여기에서 API 키를 받으세요."
+
+#: includes/views/general-settings.php:55
+msgid "Your Mailchimp API key"
+msgstr "메일침프 API 키"
+
+#: includes/views/general-settings.php:53
+msgid "API Key"
+msgstr "API 키"
+
+#: includes/views/general-settings.php:44
+msgid "NOT CONNECTED"
+msgstr "연결되지 않음"
+
+#: includes/views/general-settings.php:40
+msgid "CONNECTED"
+msgstr "연결됨"
+
+#: includes/views/general-settings.php:18
+msgid "API Settings"
+msgstr "API 설정"
+
+#: integrations/gravity-forms/class-field.php:38
+msgid "Mailchimp for WordPress"
+msgstr "워드프레스용 메일침프"
+
+#: includes/forms/views/tabs/form-settings.php:55
+#: includes/forms/views/tabs/form-settings.php:70
+#: includes/forms/views/tabs/form-settings.php:91
+#: includes/forms/views/tabs/form-settings.php:139
+#: includes/integrations/views/integration-settings.php:67
+#: includes/integrations/views/integration-settings.php:91
+#: includes/integrations/views/integration-settings.php:178
+#: includes/integrations/views/integration-settings.php:211
+#: includes/integrations/views/integration-settings.php:231
+#: includes/integrations/views/integration-settings.php:254
+#: includes/integrations/views/integration-settings.php:279
+#: includes/views/other-settings.php:25
+#: integrations/contact-form-7/class-contact-form-7.php:74
+#: integrations/gravity-forms/class-gravity-forms.php:113
+#: integrations/gravity-forms/class-gravity-forms.php:125
+#: integrations/wpforms/class-field.php:247
+msgid "No"
+msgstr "아니오"
+
+#: includes/forms/views/tabs/form-settings.php:51
+#: includes/forms/views/tabs/form-settings.php:66
+#: includes/forms/views/tabs/form-settings.php:87
+#: includes/forms/views/tabs/form-settings.php:135
+#: includes/integrations/views/integration-settings.php:66
+#: includes/integrations/views/integration-settings.php:90
+#: includes/integrations/views/integration-settings.php:177
+#: includes/integrations/views/integration-settings.php:210
+#: includes/integrations/views/integration-settings.php:227
+#: includes/integrations/views/integration-settings.php:250
+#: includes/integrations/views/integration-settings.php:275
+#: includes/views/other-settings.php:21
+#: integrations/contact-form-7/class-contact-form-7.php:74
+#: integrations/gravity-forms/class-gravity-forms.php:112
+#: integrations/gravity-forms/class-gravity-forms.php:124
+#: integrations/wpforms/class-field.php:247
+msgid "Yes"
+msgstr "네"
+
+#: config/default-form-messages.php:17
+msgid "Given email address is not subscribed."
+msgstr "입력한 이메일 주소는 가입되어 있지 않습니다."
+
+#: config/default-form-messages.php:13
+msgid "You were successfully unsubscribed."
+msgstr "구독이 성공적으로 취소되었습니다."
+
+#: config/default-form-messages.php:33
+msgid "Please fill in the required fields."
+msgstr "필수 필드를 작성하십시오."
+
+#: config/default-form-messages.php:29
+msgid "Given email address is already subscribed, thank you!"
+msgstr "입력한 이메일 주소는 이미 구독 중입니다. 감사합니다!"
+
+#: config/default-form-messages.php:25
+msgid "Please provide a valid email address."
+msgstr "유효한 이메일 주소를 입력하십시오."
+
+#: config/default-form-messages.php:21
+msgid "Oops. Something went wrong. Please try again later."
+msgstr "이런. 문제가 발생했습니다. 나중에 다시 시도 해주십시오."
+
+#: config/default-form-messages.php:5
+msgid "Thank you, your sign-up request was successful! Please check your email inbox to confirm."
+msgstr "가입 요청이 성공했습니다! 이메일 받은 편지함을 열어하여 확인하시기 바랍니다."
+
+#: includes/integrations/class-integration.php:79
+msgid "Sign me up for the newsletter!"
+msgstr "뉴스레터를 신청하세요!"
+
+#: config/default-form-content.php:5
+msgid "Sign up"
+msgstr "가입"
+
+#: config/default-form-content.php:4
+msgid "Your email address"
+msgstr "귀하의 이메일 주소"
+
+#: includes/forms/class-widget.php:96
+msgid "You can edit your sign-up form in the <a href=\"%s\">Mailchimp for WordPress form settings</a>."
+msgstr "<a href=\"%s\">워드프레스용 메일침프 양식 설정</a>에서 가입 양식을 편집할 수 있습니다."
+
+#: includes/forms/class-widget.php:79
+msgid "Title:"
+msgstr "제목:"
+
+#: includes/forms/class-widget.php:27
+msgid "Newsletter"
+msgstr "뉴스 레터"
+
+#: includes/forms/class-widget.php:33
+msgid "Displays your Mailchimp for WordPress sign-up form"
+msgstr "워드프레스용 메일침프 가입 양식을 표시합니다."
+
+#: includes/forms/class-admin.php:462 includes/forms/class-widget.php:31
+msgid "Mailchimp Sign-Up Form"
+msgstr "메일침프 가입 양식"
+
+#: config/default-form-content.php:3 includes/class-mailchimp.php:250
+#: includes/forms/class-admin.php:82
+msgid "Email address"
+msgstr "이메일 주소"
+
+#: includes/forms/class-admin.php:106
+msgid "Subscribe"
+msgstr "구독"
+
+#: includes/forms/class-admin.php:89
+msgid "Initial value"
+msgstr "초기 값"
+
+#: includes/forms/class-admin.php:123 includes/forms/views/edit-form.php:24
+msgid "Forms"
+msgstr "양식"
+
+#: includes/forms/views/tabs/form-settings.php:1
+msgid "Form Settings"
+msgstr "양식 설정"
+
+#: includes/forms/class-admin.php:75
+msgid "Checkboxes"
+msgstr "확인란"
+
+#: integrations/ninja-forms-2/class-ninja-forms.php:33
+#: integrations/ninja-forms/class-action.php:21
+msgid "Mailchimp"
+msgstr "메일침프"
+
+#: includes/admin/class-admin.php:345
+msgid "Mailchimp API Settings"
+msgstr "메일침프 API 설정"
+
+#: includes/admin/class-admin-texts.php:66 includes/forms/views/edit-form.php:6
+msgid "Settings"
+msgstr "설정"

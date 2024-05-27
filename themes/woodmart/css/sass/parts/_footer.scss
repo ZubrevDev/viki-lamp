@@ -1,0 +1,88 @@
+.viki-footer-heading {
+    @include Headline-96;
+    color:#fff;
+    display: flex; 
+    justify-content: start; 
+    align-items: flex-start
+    ;
+    
+ 
+ @media screen and (max-width: #{$tablet-landscape}) {
+     @include tablet-headline-64;
+     
+     }
+ 
+ @media screen and (max-width: #{$mobile-landscape}) {
+      @include mobile-headline-40;
+         
+      }
+ }
+ .viki-footer-heading::after {
+    content: "[@VIKI_LAMPONE]";
+    font-family: Platform, sans-serif; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-top: -20px;
+
+
+@media screen and (max-width: #{$mobile-landscape}) {
+    @include mobile-light-12;
+    margin-top: -1 0px;
+
+        
+     }
+ }
+
+ #menu-footer-menu-1 .nav-link-text, #menu-footer-menu-2 .nav-link-text, #menu-footer-menu-3 .nav-link-text {
+@include text-light-16;
+color: $White;
+&:hover {
+    color: $LightGrey;
+}
+
+
+@media screen and (max-width: #{$tablet-landscape}) {
+    @include tablet-light-14;
+    
+    }
+
+@media screen and (max-width: #{$mobile-landscape}) {
+    @include mobile-light-12;
+        
+     }
+
+ }
+ .text-info-footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+    flex-direction: column;
+    width:50%;
+    float: right;
+    @include text-light-16;
+    color:$LightGrey;
+    text-align: end;
+
+    @media screen and (max-width: #{$tablet-landscape}) {
+        align-items: flex-start;
+        width:100%;
+        text-align: start;
+
+
+        
+        }
+}
+.socials-footer {
+    display: flex; 
+    justify-content: space-between;
+
+    .viki-social-link {
+    @include text-light-16;
+    color:$LightGrey;
+    }
+}

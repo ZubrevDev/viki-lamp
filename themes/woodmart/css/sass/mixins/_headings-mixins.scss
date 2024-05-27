@@ -1,0 +1,285 @@
+
+@mixin Headline-295 {
+    font-family: Bilky Maliek;
+    font-size: 295px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 295px */
+    letter-spacing: 7.375px;
+    text-transform: uppercase; 
+}
+@mixin Headline-227 {
+    font-family: Bilky Maliek;
+    font-size: 227px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 227px */
+    letter-spacing: 5.675px;
+    text-transform: uppercase;
+}
+
+@mixin Headline-96 {
+  font-family: Bilky Maliek;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 96px */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  }
+  
+  @mixin Headline-64 {
+    font-family: Bilky Maliek;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 64px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;       
+    }
+
+@mixin text-reg-24 {
+    font-family: Platform-Regular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+}
+@mixin text-light-24 {
+    font-family: Platform-Light;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 24px */
+    letter-spacing: 0.6px;
+}
+@mixin text-reg-18 {
+    font-family: Platform-Regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 0.45px;
+} 
+@mixin text-light-18 {
+    font-family: Platform-Light;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 18px */
+    letter-spacing: 0.45px;
+} 
+
+@mixin text-light-16 {
+  font-family: Platform-Light;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 16px */
+  letter-spacing: 0.4px;
+}
+
+/* Tablet */
+  
+  @mixin tablet-headline-137 {
+    font-family: Bilky Maliek;
+    font-size: 137px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 137px */
+    letter-spacing: 3.425px;
+    text-transform: uppercase;
+      }
+
+@mixin tablet-headline-64 {
+    font-family: Bilky Maliek;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 64px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+      }
+      
+@mixin tablet-headline-48 {
+    font-family: Bilky Maliek;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 48px */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+      }
+@mixin tablet-headline-40 {
+    font-family: Bilky Maliek;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 40px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+      }
+
+@mixin tablet-text-reg-20 {
+    font-family: Platform-Regular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;  
+      }
+
+@mixin tablet-light-20 {
+    font-family: Platform-Light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 20px */
+    letter-spacing: 0.5px;
+    text-transform: uppercase; 
+      }
+
+@mixin tablet-light-18 {
+    font-family: Platform-Light;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 18px */
+    letter-spacing: 0.45px;
+    text-transform: uppercase; 
+      }  
+
+@mixin tablet-reg-16 {
+    font-family: Platform-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;  
+      }
+@mixin tablet-light-16 {
+    font-family: Platform-Light;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.4px; 
+          }  
+
+@mixin tablet-reg-14 {
+  font-family: Platform-Regular;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 16.8px */
+letter-spacing: 0.35px;
+      }
+
+@mixin tablet-light-14 {
+  font-family: Platform-Light;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 14px */
+  letter-spacing: 0.35px;
+      }
+
+/* Mobile  */
+
+@mixin mobile-headline-40 {
+  font-family: Bilky Maliek;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 40px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+      }
+
+@mixin mobile-headline-32 {
+  font-family: Bilky Maliek;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 32px */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+      }
+
+@mixin mobile-light-20 {
+  font-family: Platform-Light;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 20px */
+  letter-spacing: 0.5px;
+      }
+
+@mixin mobile-reg-16 {
+  font-family: Platform-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.4px;
+      }
+
+@mixin mobile-light-16 {
+font-family: Platform-Regular;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 14px */
+letter-spacing: 0.35px;
+      }
+
+@mixin mobile-light-14 {
+  font-family: Platform-Light;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 14px */
+  letter-spacing: 0.35px;
+            }
+
+
+@mixin mobile-light-12 {
+  font-family: Platform-Light;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300; 
+  line-height: 100%; /* 14px */
+  letter-spacing: 0.35px;
+            }
+
+@mixin mobile-reg-12 {
+  font-family: Platform-Regular;
+  font-size: 12px;
+   font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.3px;
+            }
+
+@mixin mobile-reg-11 {
+font-family: Platform-Regular;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 13.2px */
+letter-spacing: 0.275px;
+            }
+
+@mixin mobile-light-11 {
+font-family: Platform-Light;
+font-size: 11px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 11px */
+letter-spacing: 0.275px;
+            }

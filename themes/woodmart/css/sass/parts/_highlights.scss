@@ -1,0 +1,62 @@
+@import "../mixins/_headings-mixins";
+
+
+.Higlhlights-element a img {
+max-width: 120px;
+max-height: 120px;
+}
+.Higlhlights-element a img:hover {
+    border-radius: 50px;
+    outline: 1px solid $LightGrey!important;
+    outline-offset: 5px;
+}
+
+.viki-section-heading {
+   @include Headline-96;
+   color: #FFF;
+   
+
+@media screen and (max-width: #{$tablet-landscape}) {
+    @include tablet-headline-64;
+    
+    }
+
+@media screen and (max-width: #{$mobile-landscape}) {
+     @include mobile-headline-40;
+        
+     }
+}
+
+.heading-side-text {
+@include text-reg-18;
+color: #FFF;
+
+@media screen and (max-width: #{$tablet-portrait}) {
+        @include mobile-reg-16;
+        
+        }
+    
+   @media screen and (max-width: #{$mobile-portrait}) {
+         @include mobile-reg-16;
+            
+ }
+
+
+}
+
+.highlights-text-lower {
+    @include text-light-18 ;
+    margin-top: 6px;
+    text-align: center;
+    
+@media screen and (max-width: #{$tablet-landscape}) {
+        @include tablet-light-16;
+
+        }
+    
+@media screen and (max-width: #{$mobile-landscape}) {
+         @include mobile-light-12;
+
+ }
+}
+   

@@ -1,0 +1,39 @@
+
+@media screen and (max-width: #{$mobile-landscape}) {
+    .site-logo  {
+        max-width: 397px;
+      }
+    .whb-column {
+        display: flex;
+        justify-content: space-between;
+            }     
+    
+    }
+
+.nav-link-text {
+@include text-light-24;
+
+    @media screen and (max-width: #{$tablet-landscape}) {
+@include tablet-light-14;
+
+}
+ 
+
+}
+.wd-logo img {
+    padding-bottom: 13px;
+}
+
+.whb-general-header-inner  {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color:$LightGrey ;
+
+    @media screen and (max-width: #{$mobile-landscape}) {
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+    }
+
+}    
+
+

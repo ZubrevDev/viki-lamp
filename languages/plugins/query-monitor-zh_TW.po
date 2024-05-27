@@ -1,0 +1,1642 @@
+# Translation of Plugins - Query Monitor - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Query Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-17 06:31:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Query Monitor - Stable (latest release)\n"
+
+#: collectors/logger.php:173
+msgid "Assertion failed"
+msgstr "判斷提示已失敗"
+
+#. translators: %s: Assertion message
+#: collectors/logger.php:169
+msgid "Assertion failed: %s"
+msgstr "判斷提示已失敗: %s"
+
+#: collectors/logger.php:161
+msgid "Assertion passed"
+msgstr "判斷提示已通過"
+
+#. translators: %s: Assertion message
+#: collectors/logger.php:157
+msgid "Assertion passed: %s"
+msgstr "判斷提示已通過: %s"
+
+#: classes/Collector.php:122 output/html/environment.php:242
+msgid "empty string"
+msgstr "空白字串"
+
+#. translators: %s: Drop-in plugin file name
+#: classes/Util.php:328
+msgid "Drop-in: %s"
+msgstr "強化外掛: %s"
+
+#: output/html/hooks.php:36
+msgid "Hooks, Actions, & Filters"
+msgstr "勾點、動作及篩選器"
+
+#: output/html/environment.php:247
+msgid "Development Mode"
+msgstr "開發模式"
+
+#. translators: %s: Total number of Doing it Wrong occurrences
+#: output/html/doing_it_wrong.php:118
+msgctxt "Total Doing it Wrong occurrences"
+msgid "Total: %s"
+msgstr "項目總計: %s"
+
+#: output/html/doing_it_wrong.php:57
+msgid "No occurrences."
+msgstr "沒有發生錯誤。"
+
+#. translators: %s: Total number of Doing it Wrong occurrences
+#: output/html/doing_it_wrong.php:43
+msgctxt "Doing it Wrong"
+msgid "Doing it Wrong (%s)"
+msgstr "發生錯誤 (%s)"
+
+#: output/html/doing_it_wrong.php:41
+msgid "Doing it Wrong occurrences"
+msgstr "發生錯誤次數"
+
+#. translators: %s: Total number of Doing it Wrong occurrences
+#: output/html/doing_it_wrong.php:40
+msgctxt "Doing it Wrong"
+msgid "Total: %s"
+msgstr "項目總計: %s"
+
+#: output/html/doing_it_wrong.php:31
+msgid "Doing it Wrong"
+msgstr "發生錯誤"
+
+#. translators: %s: Name of WordPress filter
+#: dispatchers/Html.php:595
+msgid "The file link format for your editor is set by the %s filter."
+msgstr "篩選器 %s 已設定編輯器的檔案連結格式。"
+
+#. translators: 1: WordPress hook name, 2: Version number, 3: Optional message
+#. regarding the change.
+#: collectors/doing_it_wrong.php:323
+msgid "Hook %1$s is deprecated since version %2$s with no alternative available. %3$s"
+msgstr "從 %2$s 版開始，勾點 %1$s 已淘汰不用且不提供替代勾點。%3$s"
+
+#. translators: 1: WordPress hook name, 2: Version number, 3: Alternative hook
+#. name, 4: Optional message regarding the change.
+#: collectors/doing_it_wrong.php:314
+msgid "Hook %1$s is deprecated since version %2$s! Use %3$s instead. %4$s"
+msgstr "從 %2$s 版開始，勾點 %1$s 已淘汰不用，請改用 %3$s。%4$s"
+
+#. translators: 1: PHP function name, 2: Version number.
+#: collectors/doing_it_wrong.php:283
+msgid "Function %1$s was called with an argument that is deprecated since version %2$s with no alternative available."
+msgstr "從 %2$s 版開始，以引數呼叫函式 %1$s 的方式已淘汰不用，且不提供替代方案。"
+
+#. translators: 1: PHP function name, 2: Version number, 3: Optional message
+#. regarding the change.
+#: collectors/doing_it_wrong.php:275
+msgid "Function %1$s was called with an argument that is deprecated since version %2$s! %3$s"
+msgstr "從 %2$s 版開始，以引數呼叫函式 %1$s 的方式已淘汰不用。%3$s"
+
+#. translators: 1: PHP file name, 2: Version number, 3: Optional message
+#. regarding the change.
+#: collectors/doing_it_wrong.php:244
+msgid "File %1$s is deprecated since version %2$s with no alternative available. %3$s"
+msgstr "從 %2$s 版開始，檔案 %1$s 已淘汰不用且不提供替代檔案。%3$s"
+
+#. translators: 1: PHP file name, 2: Version number, 3: Alternative file name,
+#. 4: Optional message regarding the change.
+#: collectors/doing_it_wrong.php:235
+msgid "File %1$s is deprecated since version %2$s! Use %3$s instead. %4$s"
+msgstr "從 %2$s 版開始，檔案 %1$s 已淘汰不用，請改用 %3$s。%4$s"
+
+#. translators: 1: PHP class name, 2: PHP parent class name, 3: Version number,
+#. 4: __construct() method.
+#: collectors/doing_it_wrong.php:202
+msgid "The called constructor method for %1$s class in %2$s is deprecated since version %3$s! Use %4$s instead."
+msgstr "從 %3$s 版開始，%2$s 的類別 %1$s 呼叫的建構函式方法已淘汰不用，請改用 %4$s。"
+
+#. translators: 1: PHP class name, 2: Version number, 3: __construct() method.
+#: collectors/doing_it_wrong.php:193
+msgid "The called constructor method for %1$s class is deprecated since version %2$s! Use %3$s instead."
+msgstr "從 %2$s 版開始，%1$s 呼叫的建構函式方法已淘汰不用，請改用 %3$s。"
+
+#. translators: 1: PHP function name, 2: Version number, 3: Alternative
+#. function name.
+#: collectors/doing_it_wrong.php:163
+msgid "Function %1$s is deprecated since version %2$s! Use %3$s instead."
+msgstr "從 %2$s 版開始，%1$s 函式已淘汰不用，請改用 %3$s。"
+
+#. translators: 1: PHP function name, 2: Version number.
+#: collectors/doing_it_wrong.php:155
+msgid "Function %1$s is deprecated since version %2$s with no alternative available."
+msgstr "從 %2$s 版開始，%1$s 函式已淘汰不用且不提供替代函式。"
+
+#. translators: Developer debugging message. 1: PHP function name, 2:
+#. Explanatory message, 3: WordPress version number.
+#: collectors/doing_it_wrong.php:132
+msgid "Function %1$s was called incorrectly. %2$s %3$s"
+msgstr "呼叫函式 %1$s 的方式不正確。%2$s %3$s"
+
+#. translators: %s: Version number.
+#: collectors/doing_it_wrong.php:123
+msgid "(This message was added in version %s.)"
+msgstr "(這項訊息新增於 %s 版)"
+
+#. translators: %s: Number of PHP errors
+#: output/html/php_errors.php:185
+msgctxt "PHP error count"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "項目總計: %s"
+
+#: output/html/theme.php:84
+msgid "Block Template"
+msgstr "區塊範本"
+
+#: output/html/timing.php:216
+msgid "Timings"
+msgstr "計時"
+
+#. translators: %s: Link to help article
+#: output/html/timing.php:45
+msgid "No data logged. <a href=\"%s\">Read about timing and profiling in Query Monitor</a>."
+msgstr "尚未記錄任何資料。<a href=\"%s\" target=\"_blank\">進一步了解 Query Monitor 中的計時及分析</a>"
+
+#: output/html/multisite.php:52
+msgid "Site Switch"
+msgstr "網站切換"
+
+#: output/html/multisite.php:51
+msgid "Function"
+msgstr "函式"
+
+#: output/html/multisite.php:37
+msgid "No data logged."
+msgstr "尚未記錄任何資料。"
+
+#. translators: A closure is an anonymous PHP function
+#: classes/Util.php:397
+msgid "Unknown closure"
+msgstr "未知的關閉"
+
+#. translators: %s: Name of a multilingual plugin
+#: output/html/languages.php:62 output/html/languages.php:75
+msgid "%s Language"
+msgstr "%s 語言"
+
+#. translators: 1: CLI command to run, 2: plugin directory name
+#: classes/PHP.php:54
+msgid "Dependencies for Query Monitor need to be installed. Run %1$s from the %2$s directory."
+msgstr "必須安裝 Query Monitor 的相依性項目。請在 %2$s 目錄執行 %1$s。"
+
+#: dispatchers/Html.php:611
+msgctxt "colour scheme"
+msgid "Dark"
+msgstr "深色"
+
+#: dispatchers/Html.php:610
+msgctxt "colour scheme"
+msgid "Light"
+msgstr "淺色"
+
+#: dispatchers/Html.php:609
+msgctxt "colour scheme"
+msgid "Auto"
+msgstr "自動"
+
+#: dispatchers/Html.php:606
+msgid "Your browser color scheme is respected by default. You can override it here."
+msgstr "瀏覽器的目前使用的預設色彩配置。使用者可以在這裡覆寫這項設定。"
+
+#: dispatchers/Html.php:604
+msgid "Appearance"
+msgstr "外觀"
+
+#. translators: %s: Memory used in megabytes
+#. translators: %s: Memory usage in megabytes with a decimal fraction. Note the
+#. space between value and unit symbol.
+#: output/headers/overview.php:40 output/html/overview.php:391
+msgid "%s MB"
+msgstr "%s MB"
+
+#: output/html/overview.php:360
+msgid "Speak to your web host about enabling an opcode cache such as OPcache."
+msgstr "請告知網站主機代管服務提供商啟用如 OPcache 的 opcache 快取。"
+
+#: output/html/overview.php:357
+msgid "Opcode cache not in use"
+msgstr "沒有使用 Opcode 快取"
+
+#: output/html/overview.php:341
+msgid "Opcode Cache"
+msgstr "Opcode 快取"
+
+#: output/html/overview.php:324
+msgid "Speak to your web host about enabling an object cache extension such as Redis or Memcached."
+msgstr "請告知網站主機代管服務提供商啟用如 Redis 或 Memcached 物件快取擴充功能。"
+
+#. translators: 1: PHP extension name, 2: URL to plugin directory
+#: output/html/overview.php:308
+msgid "The %1$s object cache extension for PHP is installed but is not in use by WordPress. You should <a href=\"%2$s\" target=\"_blank\" class=\"qm-external-link\">install a %1$s plugin</a>."
+msgstr "主機已安裝 PHP 的 %1$s 物件快取，但 WordPress 尚未使用，因此這個網站應該<a href=\"%2$s\" target=\"_blank\" class=\"qm-external-link\">安裝 %1$s 相關外掛</a>。"
+
+#: output/html/overview.php:293
+msgid "Persistent object cache plugin not in use"
+msgstr "沒有使用持續物件快取外掛"
+
+#: output/html/overview.php:286
+msgid "Persistent object cache plugin in use"
+msgstr "正在使用持續物件快取外掛"
+
+#. translators: 1: Memory used in bytes, 2: Memory used in megabytes
+#: output/html/overview.php:147
+msgid "%1$s bytes (%2$s MB)"
+msgstr "%1$s 位元組 (%2$s MB)"
+
+#. translators: %s: A time in seconds with a decimal fraction. No space between
+#. value and unit symbol.
+#. translators: %s: A time in seconds with a decimal fraction. No space between
+#. value and unit.
+#: output/html/db_queries.php:487 output/html/overview.php:105
+#: output/html/overview.php:190 output/html/overview.php:238
+#: output/html/overview.php:386
+msgctxt "Time in seconds"
+msgid "%ss"
+msgstr "%s 秒"
+
+#. translators: %s: Total number of items in a list
+#: output/html/logger.php:75
+msgid "All (%d)"
+msgstr "全部 (%d)"
+
+#: output/html/environment.php:282
+msgid "Architecture"
+msgstr "架構"
+
+#. translators: %s: Number of database queries. Note the space between value
+#. and unit symbol.
+#: output/html/db_queries.php:492 output/html/db_queries.php:506
+msgid "%s Q"
+msgid_plural "%s Q"
+msgstr[0] "%s 個查詢"
+
+#: output/html/assets_styles.php:38
+msgid "No CSS files were enqueued."
+msgstr "尚無佇列中的 CSS 檔案。"
+
+#: output/html/assets_scripts.php:38
+msgid "No JavaScript files were enqueued."
+msgstr "尚無佇列中的 JavaScript。"
+
+#: output/Html.php:325
+msgid "Non-WordPress Core"
+msgstr "不屬於 WordPress 核心程式"
+
+#: dispatchers/Html.php:651
+msgid "Allow the wp-content/db.php file symlink to be put into place during activation. Set to false to prevent the symlink creation."
+msgstr "在 Query Monitor 啟用期間，允許放置 wp-content 中 db.php 檔案的符號連結。如果設定為 false，便會防止建立符號連結。"
+
+#. translators: %s: Number of hooks
+#: dispatchers/Html.php:383
+msgid "Hooks in Use (%s)"
+msgstr "使用中的勾點 (%s)"
+
+#: dispatchers/Html.php:294
+msgid "Data collection ceased"
+msgstr "資料收集已停止。"
+
+#: classes/Util.php:246 output/Html.php:320 output/html/hooks.php:95
+msgid "WordPress Core"
+msgstr "WordPress 核心程式"
+
+#: output/html/overview.php:246
+msgctxt "HTTP API calls"
+msgid "Total"
+msgstr "項目總計"
+
+#: output/html/block_editor.php:64
+msgid "Context"
+msgstr "內容歸屬"
+
+#. translators: 1: Percentage of memory limit used, 2: Memory limit in
+#. megabytes
+#: output/headers/overview.php:47 output/html/overview.php:161
+msgid "%1$s%% of %2$s MB server limit"
+msgstr "伺服器使用上限為 %2$s MB，目前使用 %1$s%%"
+
+#: classes/QueryMonitor.php:80
+msgctxt "verb"
+msgid "Sponsor"
+msgstr "贊助外掛開發"
+
+#. translators: %s: File name
+#: output/html/db_queries.php:194
+msgid "Extended query information such as the component and affected rows is not available. Query Monitor was unable to symlink its %s file into place."
+msgstr "無法提供擴充查詢資訊 (例如元件及受影響的資料列)。Query Monitor 無法產生放置的檔案 %s 的符號連結。"
+
+#. translators: 1: File name, 2: Configuration constant name
+#: output/html/db_queries.php:191
+msgid "Extended query information such as the component and affected rows is not available. Query Monitor was prevented from symlinking its %1$s file into place by the %2$s constant."
+msgstr "無法提供擴充查詢資訊 (例如元件及受影響的資料列)。Query Monitor 無法產生常數 %2$s 放置的檔案 %1$s 的符號連結。"
+
+#. translators: %s: File name
+#: output/html/db_queries.php:188
+msgid "Extended query information such as the component and affected rows is not available. A conflicting %s file is present."
+msgstr "無法提供擴充查詢資訊 (例如元件及受影響的資料列)。由檔案 %s 產生衝突。"
+
+#. translators: %s: Dependency name
+#: classes/Util.php:182
+msgid "Dependency: %s"
+msgstr "相依性: %s"
+
+#. translators: %s: Link to help article
+#: output/html/logger.php:46
+msgid "No data logged. <a href=\"%s\">Read about logging variables in Query Monitor</a>."
+msgstr "尚未記錄任何資料。<a href=\"%s\" target=\"_blank\">進一步了解 Query Monitor 中的記錄變數</a>"
+
+#: output/html/environment.php:227
+msgid "Environment Type"
+msgstr "環境類型"
+
+#: dispatchers/Html.php:639
+msgid "Hide Query Monitor itself from various panels. Set to false if you want to see how Query Monitor hooks into WordPress."
+msgstr "在多個面板中隱藏 Query Monitor 本身產生的資訊。如果需要查看 Query Monitor 勾點在 WordPress 中執行的資料，請將這常式設定為 false。"
+
+#: dispatchers/Html.php:265
+msgid "PHP Fatal Error"
+msgstr "PHP 嚴重錯誤"
+
+#. translators: 1: CLI command to run, 2: plugin directory name
+#: dispatchers/Html.php:212
+msgid "Asset files for Query Monitor need to be built. Run %1$s from the %2$s directory."
+msgstr "系統需要建置 Query Monitor 的資產檔案。請在 %2$s 目錄執行 %1$s。"
+
+#. translators: %s: Plugin or theme name
+#: dispatchers/WP_Die.php:120
+msgid "This message was triggered by %s."
+msgstr "這項訊息由 [%s] 觸發。"
+
+#: dispatchers/Html.php:591
+msgid "Saved! Reload to apply changes."
+msgstr "設定已儲存。請重新載入以套用變更。"
+
+#: dispatchers/Html.php:587
+msgid "Set editor cookie"
+msgstr "設定編輯器 Cookie"
+
+#: dispatchers/Html.php:565
+msgid "You can set your editor here, so that when you click on stack trace links the file opens in your editor."
+msgstr "使用者可以在這裡設定慣用的編輯器，一旦點擊堆疊追蹤便會使用關聯的編輯器開啟。"
+
+#: dispatchers/Html.php:562
+msgid "Editor"
+msgstr "編輯器"
+
+#. translators: %s: Number of logs that are available
+#: output/html/logger.php:218
+msgid "Logs (%s)"
+msgstr "記錄 (%s)"
+
+#: output/html/request.php:197
+msgid "Requested URL"
+msgstr "已要求的網址"
+
+#: output/html/request.php:196
+msgid "HTTP method"
+msgstr "HTTP 方法"
+
+#: output/html/request.php:195
+msgid "Remote IP"
+msgstr "遠端 IP 位址"
+
+#: output/html/admin.php:75
+msgid "Global Variable"
+msgstr "全域變數"
+
+#: output/html/admin.php:71
+msgid "Globals"
+msgstr "全域"
+
+#: output/html/headers.php:119
+msgid "Response Headers"
+msgstr "回應標頭"
+
+#: output/html/headers.php:118
+msgid "Request Headers"
+msgstr "要求標頭"
+
+#: output/html/headers.php:102
+msgid "Note that header names are not case-sensitive."
+msgstr "請注意，標頭名稱不區分大小寫。"
+
+#: output/html/headers.php:69
+msgid "Response Header Name"
+msgstr "回應標頭名稱"
+
+#: output/html/headers.php:54
+msgid "Request Header Name"
+msgstr "要求標頭名稱"
+
+#: output/html/timing.php:61
+msgid "Stopped"
+msgstr "結束時間"
+
+#: output/html/timing.php:60
+msgid "Started"
+msgstr "開始時間"
+
+#. translators: %s: Number of database queries
+#: output/html/db_queries.php:288
+msgctxt "Query count"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "項目總計: %s"
+
+#: output/html/overview.php:84
+msgid "Unknown HTTP Response Code"
+msgstr "未知的 HTTP 回應碼"
+
+#: output/html/headers.php:34 output/html/request.php:191
+msgid "Request Data"
+msgstr "要求資料"
+
+#. translators: %s: Default value for a PHP constant
+#: dispatchers/Html.php:694
+msgid "Default value: %s"
+msgstr "預設值: %s"
+
+#: output/html/theme.php:181
+msgid "Not Loaded"
+msgstr "未載入"
+
+#. translators: 1: Required PHP version number, 2: Current PHP version number,
+#. 3: URL of PHP update help page
+#: classes/PHP.php:32
+msgid "The Query Monitor plugin requires PHP version %1$s or higher. This site is running PHP version %2$s. <a href=\"%3$s\">Learn about updating PHP</a>."
+msgstr "Query Monitor 外掛需要 PHP %1$s 或更新版本。這個網站目前執行的是 PHP %2$s。<a href=\"%3$s\" target=\"_blank\">進一步了解更新 PHP 執行環境</a>"
+
+#. translators: %s: Total number of enqueued scripts
+#: output/html/assets_scripts.php:37
+msgctxt "Enqueued scripts"
+msgid "Scripts (%s)"
+msgstr "指令碼 (%s)"
+
+#. translators: %s: Total number of enqueued styles
+#: output/html/assets_styles.php:37
+msgctxt "Enqueued styles"
+msgid "Styles (%s)"
+msgstr "樣式 (%s)"
+
+#: output/html/overview.php:330
+msgid "Object cache statistics are not available"
+msgstr "無法提供物件快取統計資料。"
+
+#: output/Html.php:394
+msgid "Toggle more information"
+msgstr "顯示進一步資訊"
+
+#: output/Html.php:381
+msgid "Sort data by this column"
+msgstr "依據這個資料行排序資料"
+
+#: output/Html.php:177 output/html/hooks.php:59
+msgid "Callback"
+msgstr "回呼"
+
+#. translators: %s: Panel name
+#: output/Html.php:167
+msgid "%s: Related Hooks with Filters or Actions Attached"
+msgstr "%s: 篩選器或附加動作的相關勾點"
+
+#: output/Html.php:147 output/html/hooks.php:62 output/html/hooks.php:159
+msgid "Filter"
+msgstr "篩選器"
+
+#: output/Html.php:146
+msgid "Related Hooks with Filters Attached"
+msgstr "篩選器附加的相關勾點"
+
+#: output/Html.php:142
+msgid "Related Hooks with Actions Attached"
+msgstr "動作附加的相關勾點"
+
+#: output/html/languages.php:95
+msgid "Translation File"
+msgstr "語言套件檔案"
+
+#. translators: %s: Name of cache driver
+#: output/html/overview.php:348
+msgid "Opcode cache in use: %s"
+msgstr "使用中的 Opcode 快取: %s"
+
+#: output/html/overview.php:212
+msgctxt "database queries"
+msgid "Total"
+msgstr "項目總計"
+
+#: output/html/block_editor.php:206
+msgid "None (Classic block)"
+msgstr "無 (傳統區塊)"
+
+#: output/html/block_editor.php:70
+msgid "Render Time"
+msgstr "轉譯時間"
+
+#: output/html/theme.php:205
+msgid "Twig Template Files"
+msgstr "Twig 範本檔案"
+
+#: dispatchers/Html.php:480
+msgid "Toggle panel position"
+msgstr "切換面板位置"
+
+#. translators: %1$s: Erroneous post type name, %2$s: WordPress attachment post
+#. type name
+#: output/html/block_editor.php:172
+msgid "Referenced media is of type %1$s instead of %2$s."
+msgstr "參照的媒體為 [%1$s] 內容類型而不是 [%2$s]。"
+
+#: output/html/block_editor.php:164
+msgid "Referenced media does not exist."
+msgstr "參照的媒體不存在。"
+
+#. translators: %s: Total number of content blocks used
+#: output/html/block_editor.php:103
+msgctxt "Content blocks used"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "項目總計: %s"
+
+#: classes/QueryMonitor.php:61
+msgid "Add-ons"
+msgstr "附加元件"
+
+#. translators: 1: Name of the PHP directive, 2: Value of the PHP directive
+#: output/html/overview.php:171
+msgid "No memory limit. The %1$s PHP configuration directive is set to %2$s."
+msgstr "沒有記憶體限制。PHP 組態指示詞 %1$s 已設定為 %2$s。"
+
+#. translators: 1: Name of the PHP directive, 2: Value of the PHP directive
+#: output/html/overview.php:129
+msgid "No execution time limit. The %1$s PHP configuration directive is set to %2$s."
+msgstr "沒有執行時間限制。PHP 組態指示詞 %1$s 已設定為 %2$s。"
+
+#: classes/Collector_Assets.php:325
+msgid "Insecure content"
+msgstr "不安全的內容"
+
+#. translators: %1$s: Erroneous post type name, %2$s: WordPress block post type
+#. name
+#: output/html/block_editor.php:141
+msgid "Referenced post is of type %1$s instead of %2$s."
+msgstr "參照的內容是 [%1$s] 內容類型而不是 [%2$s]。"
+
+#: output/html/block_editor.php:133
+msgid "Referenced block does not exist."
+msgstr "參照的區塊不存在。"
+
+#: output/html/block_editor.php:73
+msgid "Inner HTML"
+msgstr "內部 HTML"
+
+#: output/html/block_editor.php:67
+msgid "Render Callback"
+msgstr "轉譯回呼"
+
+#: output/html/block_editor.php:61
+msgid "Attributes"
+msgstr "屬性"
+
+#: output/html/block_editor.php:60
+msgid "Block Name"
+msgstr "區塊名稱"
+
+#: output/html/block_editor.php:47
+msgid "This post contains no blocks."
+msgstr "這篇內容中沒有任何區塊。"
+
+#. translators: %s: The number of times that a template part file was included
+#. in the page
+#: output/html/theme.php:166
+msgctxt "template parts"
+msgid "Included %s time"
+msgid_plural "Included %s times"
+msgstr[0] "已使用 %s 次"
+
+#: output/html/block_editor.php:30 output/html/block_editor.php:339
+msgid "Blocks"
+msgstr "區塊"
+
+#: classes/QueryMonitor.php:213
+msgctxt "Human readable label for the user capability required to view Query Monitor."
+msgid "View Query Monitor"
+msgstr "檢視 Query Monitor"
+
+#: output/html/transients.php:129
+msgid "No transients set."
+msgstr "尚無暫存資料集。"
+
+#: output/html/overview.php:62
+msgid "PHP errors were triggered during an Ajax request. See your browser developer console for details."
+msgstr "AJAX 要求觸發了 PHP 錯誤。查看目前使用的瀏覽器的開發人員主控台以進一步了解詳細資訊。"
+
+#: output/html/logger.php:220 output/raw/logger.php:21
+msgid "Logs"
+msgstr "記錄"
+
+#: output/html/http.php:315
+msgid "No HTTP API calls."
+msgstr "尚無 HTTP API 呼叫。"
+
+#. translators: %s: Number of HTTP API requests
+#: output/html/http.php:303
+msgctxt "HTTP API calls"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "項目總計: %s"
+
+#: output/html/environment.php:158
+msgid "Client Version"
+msgstr "用戶端版本"
+
+#: output/html/environment.php:157
+msgid "Extension"
+msgstr "擴充功能"
+
+#: output/html/environment.php:156
+msgid "Server Version"
+msgstr "伺服器版本"
+
+#. translators: %s: Number of user capability checks
+#: output/html/caps.php:197
+msgctxt "User capability checks"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "項目總計: %s"
+
+#: output/html/assets.php:77
+msgid "Source"
+msgstr "來源"
+
+#. translators: %s: Total number of enqueued styles
+#: output/html/assets_styles.php:34
+msgctxt "Enqueued styles"
+msgid "Total: %s"
+msgstr "項目總計: %s"
+
+#. translators: %s: Total number of enqueued scripts
+#: output/html/assets_scripts.php:34
+msgctxt "Enqueued scripts"
+msgid "Total: %s"
+msgstr "項目總計: %s"
+
+#: output/Html.php:375
+msgid "Sequence"
+msgstr "順序"
+
+#. translators: %s: Current value for a PHP constant
+#: dispatchers/Html.php:708
+msgid "Current value: %s"
+msgstr "目前設定值: %s"
+
+#. translators: %s: Name of the config file
+#: dispatchers/Html.php:674
+msgid "The following PHP constants can be defined in your %s file in order to control the behavior of Query Monitor:"
+msgstr "網站管理員可在這個網站的 %s 檔案中定義下列 PHP 常數，便能控制 Query Monitor 的行為:"
+
+#: dispatchers/Html.php:670
+msgid "Configuration"
+msgstr "外掛組態"
+
+#: dispatchers/Html.php:647
+msgid "In the Hooks & Actions panel, show every hook that has an action or filter attached (instead of every action hook that fired during the request)."
+msgstr "在 [勾點及動作] 面板中顯示附加動作或篩選器的勾點，而不是顯示執行要求時觸發的動作勾點。"
+
+#: dispatchers/Html.php:643
+msgid "Don't specify jQuery as a dependency of Query Monitor. If jQuery isn't enqueued then Query Monitor will still operate, but with some reduced functionality."
+msgstr "不將 jQuery 指定為 Query Monitor 的相依性項目。這樣當 jQuery 不在佇列中時，Query Monitor 仍能執行，但會缺少部分功能。"
+
+#: dispatchers/Html.php:635
+msgid "Hide WordPress core on the Hooks & Actions panel."
+msgstr "在 [勾點及動作] 面板中隱藏 WordPress 核心程式。"
+
+#: dispatchers/Html.php:631
+msgid "Enable the Capability Checks panel."
+msgstr "啟用 [權限檢查] 面板。"
+
+#: dispatchers/Html.php:627
+msgid "Disable the handling of PHP errors."
+msgstr "停用 PHP 錯誤處理常式。"
+
+#: dispatchers/Html.php:623
+msgid "Disable Query Monitor entirely."
+msgstr "完全停用 Query Monitor。"
+
+#: dispatchers/Html.php:619
+msgid "If an individual database query takes longer than this time to execute, it's considered \"slow\" and triggers a warning."
+msgstr "當個別資料庫查詢使用了比設定時間更長的執行時間，就會判定為 [slow] (過久) 並會觸發警告。"
+
+#: dispatchers/Html.php:556
+msgid "Authentication cookie is set"
+msgstr "驗證 Cookie 已設定。"
+
+#: dispatchers/Html.php:549
+msgid "You can set an authentication cookie which allows you to view Query Monitor output when you&rsquo;re not logged in, or when you&rsquo;re logged in as a different user."
+msgstr "網站管理員可以設定允許網站管理員未登入或登入為不同使用者還是能檢視 Query Monitor 輸出結果的驗證 Cookie。"
+
+#: dispatchers/Html.php:487
+msgid "Query Monitor Menu"
+msgstr "Query Monitor 選單"
+
+#: output/html/logger.php:31
+msgid "Logger"
+msgstr "記錄程式"
+
+#. Description of the plugin
+msgid "The developer tools panel for WordPress."
+msgstr "WordPress 的開發者工具面板。"
+
+#. translators: %s: Number of function timing results that are available
+#: output/html/timing.php:214
+msgid "Timings (%s)"
+msgstr "計時 (%s)"
+
+#. translators: %s: Approximate memory used in kilobytes
+#: output/html/timing.php:110 output/html/timing.php:142
+msgid "~%s kB"
+msgstr "大約 %s kB"
+
+#: output/html/timing.php:63
+msgid "Memory"
+msgstr "記憶體"
+
+#: output/html/timing.php:59
+msgid "Tracked Function"
+msgstr "追蹤的函式"
+
+#: output/html/theme.php:275
+msgid "Template"
+msgstr "範本"
+
+#: output/html/request.php:163
+msgid "Current User"
+msgstr "目前使用者"
+
+#. translators: used between list items, there is a space after the comma
+#: output/html/php_errors.php:280
+msgid ", "
+msgstr "、"
+
+#. translators: %s: List of PHP error types
+#. translators: %s: Number of errors
+#: output/html/php_errors.php:277 output/html/php_errors.php:327
+msgid "PHP Errors (%s)"
+msgstr "PHP 錯誤 (%s)"
+
+#. translators: %s: Number of PHP warnings
+#: output/html/php_errors.php:230
+msgctxt "PHP error level"
+msgid "%s Warning"
+msgid_plural "%s Warnings"
+msgstr[0] "%s 項警告項目"
+
+#. translators: %s: Number of PHP notices
+#: output/html/php_errors.php:228
+msgctxt "PHP error level"
+msgid "%s Notice"
+msgid_plural "%s Notices"
+msgstr[0] "%s 項通知項目"
+
+#. translators: %s: Number of strict PHP errors
+#: output/html/php_errors.php:226
+msgctxt "PHP error level"
+msgid "%s Strict"
+msgid_plural "%s Stricts"
+msgstr[0] "%s 項嚴格項目"
+
+#. translators: %s: Number of deprecated PHP errors
+#: output/html/php_errors.php:224
+msgctxt "PHP error level"
+msgid "%s Deprecated"
+msgid_plural "%s Deprecated"
+msgstr[0] "%s 項已淘汰不用項目"
+
+#: output/html/doing_it_wrong.php:69 output/html/logger.php:85
+#: output/html/php_errors.php:64
+msgid "Message"
+msgstr "訊息"
+
+#: output/html/logger.php:83 output/html/php_errors.php:62
+msgid "Level"
+msgstr "層級"
+
+#: output/html/overview.php:61
+msgid "A JavaScript problem on the page is preventing Query Monitor from working correctly. jQuery may have been blocked from loading."
+msgstr "頁面上的 JavaScript 問題造成 Query Monitor 無法正確執行。 jQuery 在載入時可能遭到封鎖。"
+
+#: output/html/http.php:78 output/html/languages.php:96
+msgid "Size"
+msgstr "大小"
+
+#: output/html/environment.php:278 output/html/http.php:216
+msgid "IP Address"
+msgstr "IP 位址"
+
+#: output/html/http.php:215
+msgid "Response Content Type"
+msgstr "回應內容類型"
+
+#: output/html/http.php:201
+msgid "Transfer Start Time (TTFB)"
+msgstr "傳輸開始時間 (TTFB)"
+
+#: output/html/http.php:200
+msgid "Connection Time"
+msgstr "連線時間"
+
+#: output/html/http.php:199
+msgid "DNS Resolution Time"
+msgstr "DNS 解析時間"
+
+#. translators: An HTTP API request redirected to another URL
+#: output/html/http.php:172
+msgid "Redirected to:"
+msgstr "重新導向目標:"
+
+#: output/html/http.php:69
+msgid "URL"
+msgstr "網址"
+
+#: output/html/http.php:67
+msgid "Method"
+msgstr "方法"
+
+#: output/Html.php:176 output/html/hooks.php:72
+msgid "Priority"
+msgstr "優先順序"
+
+#. translators: OS stands for Operating System
+#: output/html/environment.php:281
+msgid "OS"
+msgstr "作業系統"
+
+#: output/html/db_queries.php:78
+msgid "No database queries were logged."
+msgstr "尚未記錄任何資料庫查詢。"
+
+#: output/html/conditionals.php:57
+msgid "False Conditionals"
+msgstr "條件為 False"
+
+#: output/html/conditionals.php:44
+msgid "True Conditionals"
+msgstr "條件為 True"
+
+#. translators: %s: Configuration file name.
+#: output/html/caps.php:47
+msgid "For performance reasons, this panel is not enabled by default. To enable it, add the following code to your %s file:"
+msgstr "基於效能考量，預設不啟用這個面板。如需啟用這個面板，請在這個網站的 %s 檔案中加入以下常數:"
+
+#: output/html/assets.php:68
+msgid "Handle"
+msgstr "控制項目"
+
+#: output/html/assets.php:75 output/html/environment.php:160
+#: output/html/environment.php:279
+msgid "Host"
+msgstr "主機"
+
+#: output/html/assets.php:60 output/html/assets.php:152
+msgid "Other"
+msgstr "其他"
+
+#: output/html/assets.php:52
+msgid "Missing Dependencies"
+msgstr "找不到相依性項目"
+
+#: output/html/admin.php:105
+msgid "Class:"
+msgstr "類別:"
+
+#: output/html/admin.php:102
+msgid "List Table"
+msgstr "清單表格"
+
+#: dispatchers/Html.php:482
+msgid "Close Panel"
+msgstr "關閉面板"
+
+#: classes/QueryMonitor.php:60 dispatchers/Html.php:467
+#: dispatchers/Html.php:478 dispatchers/Html.php:543
+msgid "Settings"
+msgstr "設定"
+
+#: collectors/timing.php:143
+msgid "Timer not stopped"
+msgstr "計時器沒有停止計時"
+
+#: collectors/timing.php:81 collectors/timing.php:101
+msgid "Timer not started"
+msgstr "計時器尚未開始計時"
+
+#: output/html/timing.php:30
+msgid "Timing"
+msgstr "計時"
+
+#. translators: %d: Multisite network ID
+#: collectors/request.php:178
+msgid "Current Network: #%d"
+msgstr "目前多站網路: #%d"
+
+#: collectors/php_errors.php:405
+msgctxt "Silenced PHP error level"
+msgid "Deprecated (Silenced)"
+msgstr "已淘汰不用 (已停用)"
+
+#: collectors/php_errors.php:404
+msgctxt "Silenced PHP error level"
+msgid "Strict (Silenced)"
+msgstr "嚴格 (已停用)"
+
+#: collectors/php_errors.php:403
+msgctxt "Silenced PHP error level"
+msgid "Notice (Silenced)"
+msgstr "通知 (已停用)"
+
+#: collectors/php_errors.php:402
+msgctxt "Silenced PHP error level"
+msgid "Warning (Silenced)"
+msgstr "警告 (已停用)"
+
+#. translators: A non-blocking HTTP API request
+#: output/html/http.php:57 output/html/http.php:99
+msgid "Non-blocking"
+msgstr "未遭封鎖"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:217
+msgid "VIP Client MU Plugin: %s"
+msgstr "VIP 客戶的強制使用外掛: %s"
+
+#. translators: %s: Timing lap number
+#: classes/Timer.php:91
+msgid "Lap %s"
+msgstr "第 %s 次"
+
+#. translators: No user
+#: collectors/request.php:155
+msgctxt "user"
+msgid "None"
+msgstr "無"
+
+#. translators: %d: User ID
+#: collectors/request.php:150
+msgid "Current User: #%d"
+msgstr "目前使用者: #%d"
+
+#: output/html/db_queries.php:218
+msgid "Non-SELECT"
+msgstr "Non-SELECT"
+
+#: output/html/db_queries.php:97
+msgid "Error Message"
+msgstr "錯誤訊息"
+
+#: output/html/db_queries.php:98
+msgid "Error Code"
+msgstr "錯誤代碼"
+
+#: output/html/caps.php:208
+msgid "No capability checks were recorded."
+msgstr "權限檢查尚未進行任何記錄。"
+
+#: output/html/caps.php:91
+msgid "Result"
+msgstr "結果"
+
+#: output/html/caps.php:87 output/html/environment.php:81
+#: output/html/environment.php:159
+msgid "User"
+msgstr "使用者"
+
+#: output/html/caps.php:79
+msgid "Capability Check"
+msgstr "權限檢查"
+
+#: output/html/caps.php:30
+msgid "Capability Checks"
+msgstr "權限檢查"
+
+#. translators: %s: Number of transient values that were updated
+#: output/html/transients.php:148
+msgid "Transient Updates (%s)"
+msgstr "暫存資料更新 (%s)"
+
+#: output/html/transients.php:51
+msgctxt "size of transient value"
+msgid "Size"
+msgstr "大小"
+
+#: output/html/transients.php:48
+msgctxt "transient type"
+msgid "Type"
+msgstr "類型"
+
+#: output/html/transients.php:46
+msgid "Updated Transient"
+msgstr "更新的暫存資料"
+
+#: output/html/transients.php:146
+msgid "Transient Updates"
+msgstr "暫存資料更新"
+
+#: output/html/request.php:107
+msgid "View Main Query"
+msgstr "檢視主要查詢"
+
+#. translators: %s: Number of calls to the HTTP API
+#: output/html/http.php:354
+msgid "HTTP API Calls (%s)"
+msgstr "HTTP API 呼叫 (%s)"
+
+#: output/html/http.php:72
+msgid "Status"
+msgstr "狀態"
+
+#: output/html/http.php:31 output/html/http.php:352
+#: output/html/overview.php:229 output/raw/http.php:21
+msgid "HTTP API Calls"
+msgstr "HTTP API 呼叫"
+
+#: output/html/environment.php:126
+msgid "Extensions"
+msgstr "擴充功能"
+
+#: output/html/environment.php:111
+msgid "Error Reporting"
+msgstr "錯誤報告"
+
+#: output/html/hooks.php:33
+msgid "Hooks & Actions"
+msgstr "勾點及動作"
+
+#: output/html/db_queries.php:237 output/html/db_queries.php:421
+msgid "Main Query"
+msgstr "主要查詢"
+
+#. translators: 1: Cache hit rate percentage, 2: number of cache hits, 3:
+#. number of cache misses
+#: output/html/overview.php:273
+msgid "%1$s%% hit rate (%2$s hits, %3$s misses)"
+msgstr "命中率: %1$s%% (命中 %2$s 次，失誤 %3$s 次)"
+
+#: output/html/theme.php:133
+msgid "Template Hierarchy"
+msgstr "範本階層"
+
+#: collectors/php_errors.php:399
+msgctxt "Suppressed PHP error level"
+msgid "Deprecated (Suppressed)"
+msgstr "已淘汰不用 (已隱藏)"
+
+#: collectors/php_errors.php:398
+msgctxt "Suppressed PHP error level"
+msgid "Strict (Suppressed)"
+msgstr "嚴格 (已隱藏)"
+
+#: collectors/php_errors.php:397
+msgctxt "Suppressed PHP error level"
+msgid "Notice (Suppressed)"
+msgstr "通知 (已隱藏)"
+
+#: collectors/php_errors.php:396
+msgctxt "Suppressed PHP error level"
+msgid "Warning (Suppressed)"
+msgstr "警告 (已隱藏)"
+
+#: output/html/assets.php:67
+msgid "Position"
+msgstr "位置"
+
+#: output/html/assets.php:54
+msgid "Footer"
+msgstr "頁尾"
+
+#: output/html/assets.php:53
+msgid "Header"
+msgstr "頁首"
+
+#: output/html/assets.php:51
+msgid "Missing"
+msgstr "找不到"
+
+#: output/html/admin.php:54 output/html/admin.php:76 output/html/headers.php:85
+msgid "Value"
+msgstr "值"
+
+#: output/html/admin.php:53
+msgid "Property"
+msgstr "屬性"
+
+#. translators: 1: Post type name, 2: Post ID
+#: collectors/request.php:250
+msgid "Single %1$s: #%2$d"
+msgstr "單篇%1$s: #%2$d"
+
+#. translators: %d: Multisite site ID
+#: collectors/request.php:167
+msgid "Current Site: #%d"
+msgstr "目前網站: #%d"
+
+#: collectors/php_errors.php:393
+msgctxt "PHP error level"
+msgid "Deprecated"
+msgstr "已淘汰不用"
+
+#: collectors/php_errors.php:392
+msgctxt "PHP error level"
+msgid "Strict"
+msgstr "嚴格"
+
+#: collectors/php_errors.php:391
+msgctxt "PHP error level"
+msgid "Notice"
+msgstr "通知"
+
+#: collectors/php_errors.php:390
+msgctxt "PHP error level"
+msgid "Warning"
+msgstr "警告"
+
+#. translators: %s: Hook name
+#: collectors/http.php:302
+msgid "Request not executed due to a filter on %s"
+msgstr "由於勾點 %s 的篩選器，因此要求並未執行。"
+
+#. translators: Undefined PHP constant
+#: classes/Collector.php:120
+msgid "undefined"
+msgstr "未定義"
+
+#: output/html/theme.php:140
+msgid "Template Parts"
+msgstr "範本組件"
+
+#: output/html/overview.php:261 output/raw/cache.php:21
+msgid "Object Cache"
+msgstr "物件快取"
+
+#. translators: An HTTP API request has disabled certificate verification. 1:
+#. Relevant argument name
+#: output/html/http.php:125
+msgid "Certificate verification disabled (%s)"
+msgstr "憑證驗證已停用 (%s)"
+
+#. translators: %s: Number of duplicate database queries
+#: output/html/db_dupes.php:154
+msgid "Duplicate Queries (%s)"
+msgstr "重複的查詢 (%s)"
+
+#. translators: %s: Number of calls to a PHP function
+#: output/html/db_dupes.php:65
+msgid "%s call"
+msgid_plural "%s calls"
+msgstr[0] "%s 次呼叫"
+
+#: output/html/db_dupes.php:57
+msgid "Potential Troublemakers"
+msgstr "潛在問題"
+
+#: output/html/db_dupes.php:55
+msgid "Components"
+msgstr "元件"
+
+#: output/html/db_dupes.php:53
+msgid "Callers"
+msgstr "呼叫端"
+
+#: output/html/db_dupes.php:31
+msgid "Duplicate Queries"
+msgstr "重複的查詢"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:197
+msgid "MU Plugin: %s"
+msgstr "強制使用的外掛: %s"
+
+#: output/html/php_errors.php:144
+msgid "Unknown location"
+msgstr "未知的位置"
+
+#: output/html/db_callers.php:111 output/html/languages.php:137
+#: output/html/overview.php:221 output/html/overview.php:253
+#: output/html/theme.php:177
+msgid "None"
+msgstr "無"
+
+#: output/html/request.php:80
+msgid "All Matching Rewrite Rules"
+msgstr "全部相符的重新寫入規則"
+
+#: output/html/languages.php:151
+msgid "Not Found"
+msgstr "找不到"
+
+#: output/html/languages.php:92
+msgid "Text Domain"
+msgstr "Text Domain"
+
+#: output/html/environment.php:276
+msgid "Software"
+msgstr "軟體"
+
+#: output/html/environment.php:150 output/html/environment.php:161
+msgid "Database"
+msgstr "資料庫"
+
+#. translators: 1: Name of PHP constant, 2: Value of PHP constant
+#: output/html/db_queries.php:73
+msgid "No database queries were logged because the %1$s constant is set to %2$s."
+msgstr "由於常數 %1$s 設定為 %2$s，因此尚未記錄任何資料庫查詢。"
+
+#: output/html/languages.php:30
+msgid "Languages"
+msgstr "語言套件"
+
+#: classes/Util.php:427
+msgid "Unable to determine source of lambda function"
+msgstr "無法判定函式 lambda 的來源"
+
+#. Author of the plugin
+msgid "John Blackbourn"
+msgstr "John Blackbourn"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://querymonitor.com/"
+msgstr "https://querymonitor.com/"
+
+#. translators: %s: Symlink file location
+#: classes/QueryMonitor.php:181
+msgid "The symlink at %s is no longer pointing to the correct location. Please remove the symlink, then deactivate and reactivate Query Monitor."
+msgstr "%s 的符號連結不再指向正確位置。請刪除這個符號連結，並在停用 Query Monitor 外掛後再重新啟用。"
+
+#: output/html/transients.php:50
+msgid "Expiration"
+msgstr "到期時間"
+
+#: output/Html.php:175 output/html/hooks.php:63 output/html/languages.php:93
+msgid "Type"
+msgstr "類型"
+
+#. translators: %s: Template file name
+#: output/html/theme.php:260
+msgid "Template: %s"
+msgstr "範本: %s"
+
+#: output/html/theme.php:219
+msgid "Body Classes"
+msgstr "Body 類別"
+
+#: output/html/theme.php:113
+msgid "Template File"
+msgstr "範本檔案"
+
+#. translators: %s: Number of additional query variables
+#: output/html/request.php:225
+msgid "Request (+%s)"
+msgstr "要求 (+%s)"
+
+#: output/html/request.php:149
+msgid "Queried Object"
+msgstr "查詢物件"
+
+#: output/html/multisite.php:27 output/html/request.php:175
+msgid "Multisite"
+msgstr "多站網路"
+
+#: output/html/request.php:100
+msgid "Query Vars"
+msgstr "查詢變數"
+
+#: output/html/request.php:52
+msgid "Query String"
+msgstr "查詢字串"
+
+#: output/html/request.php:51
+msgid "Matched Query"
+msgstr "相符的查詢"
+
+#: output/html/request.php:50
+msgid "Matched Rule"
+msgstr "相符的規則"
+
+#: output/html/php_errors.php:65
+msgid "Location"
+msgstr "位置"
+
+#: output/html/db_dupes.php:51 output/html/php_errors.php:66
+msgid "Count"
+msgstr "計數"
+
+#. translators: %s: Memory used in kilobytes
+#: output/html/http.php:264 output/html/languages.php:145
+#: output/html/languages.php:168
+msgid "%s kB"
+msgstr "%s kB"
+
+#: output/html/overview.php:139
+msgid "Peak Memory Usage"
+msgstr "尖峰記憶體使用量"
+
+#: output/html/overview.php:100
+msgid "Page Generation Time"
+msgstr "頁面產生時間"
+
+#. translators: 1: Percentage of time limit used, 2: Time limit in seconds
+#: output/headers/overview.php:32 output/html/overview.php:119
+msgid "%1$s%% of %2$ss limit"
+msgstr "上限為 %2$s 秒，目前僅需 %1$s%% 的時間"
+
+#: output/html/http.php:79
+msgid "Timeout"
+msgstr "逾時時間"
+
+#: output/html/request.php:148
+msgid "Response"
+msgstr "回應"
+
+#. translators: %s: Error message text
+#: output/html/block_editor.php:275 output/html/hooks.php:207
+msgid "Error: %s"
+msgstr "錯誤: %s"
+
+#. translators: %s: Action name
+#: output/html/hooks.php:151
+msgid "Warning: The %s action is extremely resource intensive. Try to avoid using it."
+msgstr "警告: %s 動作會耗用大量資源，請盡量避免使用這個動作。"
+
+#: output/Html.php:143 output/html/hooks.php:55 output/html/hooks.php:61
+#: output/html/hooks.php:159
+msgid "Action"
+msgstr "動作"
+
+#: output/Html.php:174 output/html/hooks.php:69
+msgid "Hook"
+msgstr "勾點"
+
+#: output/html/environment.php:273
+msgid "Server"
+msgstr "伺服器"
+
+#: output/html/environment.php:56 output/html/environment.php:231
+#: output/html/environment.php:251
+msgid "Help"
+msgstr "線上說明"
+
+#. translators: %s: Number of slow database queries
+#: output/html/db_queries.php:577
+msgid "Slow Queries (%s)"
+msgstr "過久的查詢 (%s)"
+
+#. translators: %s: Number of database errors
+#: output/html/db_queries.php:563
+msgid "Database Errors (%s)"
+msgstr "資料庫錯誤 (%s)"
+
+#: output/html/db_queries.php:136 output/html/db_queries.php:263
+msgid "Rows"
+msgstr "資料列"
+
+#: output/html/caps.php:93 output/html/db_callers.php:51
+#: output/html/db_queries.php:95 output/html/db_queries.php:129
+#: output/html/db_queries.php:243 output/html/doing_it_wrong.php:70
+#: output/html/http.php:74 output/html/languages.php:94
+#: output/html/logger.php:86 output/html/multisite.php:53
+#: output/html/transients.php:52
+msgid "Caller"
+msgstr "呼叫端"
+
+#. translators: %s: Database query time in seconds
+#: output/html/db_queries.php:121
+msgid "Slow Database Queries (above %ss)"
+msgstr "過慢的資料庫查詢 (大約 %s 秒)"
+
+#: output/Html.php:178 output/html/caps.php:95 output/html/db_components.php:51
+#: output/html/db_queries.php:96 output/html/db_queries.php:132
+#: output/html/db_queries.php:252 output/html/doing_it_wrong.php:71
+#: output/html/hooks.php:75 output/html/http.php:76 output/html/logger.php:88
+#: output/html/multisite.php:56 output/html/php_errors.php:68
+#: output/html/timing.php:64 output/html/transients.php:53
+msgid "Component"
+msgstr "元件"
+
+#: dispatchers/WP_Die.php:127
+msgid "Call stack:"
+msgstr "呼叫堆疊:"
+
+#: output/html/db_dupes.php:50 output/html/db_queries.php:94
+#: output/html/db_queries.php:128 output/html/db_queries.php:230
+msgid "Query"
+msgstr "查詢"
+
+#: output/html/db_queries.php:90
+msgid "Database Errors"
+msgstr "資料庫錯誤"
+
+#: output/html/db_callers.php:60 output/html/db_components.php:60
+#: output/html/db_dupes.php:52 output/html/db_queries.php:139
+#: output/html/db_queries.php:268 output/html/http.php:80
+#: output/html/timing.php:62
+msgid "Time"
+msgstr "時間"
+
+#. translators: %s: Name of missing script or style dependency
+#: output/html/assets.php:143
+msgid "%s (missing)"
+msgstr "%s (找不到)"
+
+#: output/html/request.php:65 output/html/request.php:141
+#: output/html/request.php:160 output/html/request.php:171
+#: output/html/transients.php:77
+msgid "none"
+msgstr "無"
+
+#: output/html/assets.php:84 output/html/environment.php:62
+#: output/html/environment.php:220 output/html/environment.php:277
+msgid "Version"
+msgstr "版本"
+
+#: output/html/assets.php:82
+msgid "Dependents"
+msgstr "相依項目"
+
+#: output/html/assets.php:79
+msgid "Dependencies"
+msgstr "相依性"
+
+#: output/html/assets_styles.php:25 output/html/assets_styles.php:35
+msgid "Styles"
+msgstr "樣式"
+
+#: output/html/assets_scripts.php:25 output/html/assets_scripts.php:35
+msgid "Scripts"
+msgstr "指令碼"
+
+#: output/html/admin.php:112
+msgid "Column Action:"
+msgstr "資料行動作:"
+
+#: output/html/admin.php:109
+msgid "Column Filters:"
+msgstr "資料行篩選器:"
+
+#: output/Html.php:317
+msgctxt "\"All\" option for filters"
+msgid "All"
+msgstr "全部"
+
+#: dispatchers/Html.php:538
+msgid "Clear authentication cookie"
+msgstr "清除驗證 Cookie"
+
+#: dispatchers/Html.php:539
+msgid "Set authentication cookie"
+msgstr "設定驗證 Cookie"
+
+#: dispatchers/Html.php:547
+msgid "Authentication"
+msgstr "驗證"
+
+#: dispatchers/Html.php:258
+msgid "PHP Errors in Ajax Response"
+msgstr "AJAX 回應中的 PHP 錯誤"
+
+#. Plugin Name of the plugin
+#: classes/QueryMonitor.php:195 classes/QueryMonitor.php:228
+#: dispatchers/Html.php:147 dispatchers/Html.php:437 dispatchers/Html.php:825
+#: dispatchers/WP_Die.php:132
+msgid "Query Monitor"
+msgstr "Query Monitor"
+
+#: output/html/transients.php:30 output/raw/transients.php:21
+msgid "Transients"
+msgstr "暫存資料"
+
+#: collectors/request.php:287
+msgid "Unknown queried object"
+msgstr "未知的查詢物件"
+
+#. translators: %s: Post type name
+#: collectors/request.php:280
+msgid "Post type archive: %s"
+msgstr "內容類型彙整頁面: %s"
+
+#. translators: %s: Taxonomy term name
+#: collectors/request.php:270
+msgid "Term archive: %s"
+msgstr "分類法詞彙整頁面: %s"
+
+#. translators: %s: Author name
+#: collectors/request.php:260
+msgid "Author archive: %s"
+msgstr "作者彙整頁面: %s"
+
+#: output/html/request.php:30 output/html/request.php:49
+#: output/html/request.php:223
+msgid "Request"
+msgstr "要求"
+
+#: output/html/php_errors.php:32 output/html/php_errors.php:288
+msgid "PHP Errors"
+msgstr "PHP 錯誤"
+
+#: dispatchers/Html.php:444 dispatchers/Html.php:493
+#: output/html/overview.php:30
+msgid "Overview"
+msgstr "概觀"
+
+#: output/html/http.php:54
+msgid "Error"
+msgstr "錯誤"
+
+#: collectors/http.php:341
+msgid "Request timed out"
+msgstr "要求逾時"
+
+#: output/html/environment.php:30
+msgid "Environment"
+msgstr "主機環境"
+
+#: output/html/db_queries.php:38 output/html/db_queries.php:551
+#: output/html/overview.php:183 output/raw/db_queries.php:26
+msgid "Database Queries"
+msgstr "資料庫查詢"
+
+#: output/html/db_components.php:30 output/html/db_components.php:127
+msgid "Queries by Component"
+msgstr "元件的查詢"
+
+#: output/html/db_callers.php:30 output/html/db_callers.php:131
+msgid "Queries by Caller"
+msgstr "呼叫端的查詢"
+
+#: output/html/conditionals.php:31 output/html/conditionals.php:107
+#: output/raw/conditionals.php:21
+msgid "Conditionals"
+msgstr "條件"
+
+#: output/html/admin.php:30
+msgid "Admin Screen"
+msgstr "管理畫面"
+
+#. translators: 1: Line number, 2: File name
+#: classes/Util.php:422
+msgid "Anonymous function on line %1$d of %2$s"
+msgstr "%2$s 第 %1$d 行的匿名函式"
+
+#. translators: A closure is an anonymous PHP function. 1: Line number, 2: File
+#. name
+#: classes/Util.php:391
+msgid "Closure on line %1$d of %2$s"
+msgstr "於 %2$s 的第 %1$d 行關閉"
+
+#: classes/Backtrace.php:240 classes/Util.php:250
+#: collectors/environment.php:279 output/html/db_queries.php:344
+#: output/html/db_queries.php:440 output/html/environment.php:70
+#: output/html/environment.php:77 output/html/environment.php:85
+#: output/html/environment.php:171 output/html/environment.php:294
+#: output/html/overview.php:143 output/html/php_errors.php:170
+#: output/html/request.php:153 output/html/theme.php:128
+#: output/html/theme.php:254
+msgid "Unknown"
+msgstr "未知"
+
+#: classes/Util.php:233 output/html/theme.php:64
+msgid "Parent Theme"
+msgstr "上層佈景主題"
+
+#: classes/Util.php:228 output/html/theme.php:31 output/html/theme.php:48
+msgid "Theme"
+msgstr "佈景主題"
+
+#: classes/Util.php:226
+msgid "Child Theme"
+msgstr "子佈景主題"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:220
+msgid "VIP Plugin: %s"
+msgstr "VIP 外掛: %s"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:200
+msgid "Plugin: %s"
+msgstr "外掛: %s"

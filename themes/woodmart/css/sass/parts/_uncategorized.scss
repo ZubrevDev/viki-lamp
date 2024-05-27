@@ -1,0 +1,121 @@
+.related-products .wd-btn-arrow {
+    display: none;
+}
+.breadcrumb-last {
+    color: var(--LightGrey, #646464);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 12px */
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.wd-product-cats {
+    display: none;
+}
+
+.viki-price {
+    @include text-light-18;
+    opacity: 0.8;
+}
+.product-price {
+    @include text-light-18;
+    opacity: 0.8;
+}
+.widget_product_categories .product-categories .children li a {
+    @include text-light-18;
+
+
+}
+.wd-wishlist-remove {
+    opacity: 0.3;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.heading-side-text a {
+
+margin-top: 10px;
+
+&:hover {
+    opacity: 0.3;
+}
+
+}
+
+.row-viki {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+}
+
+.row-viki-styles {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.button-centered {
+    margin-top: 32px;
+    margin: 0 auto;
+}
+
+
+
+.checkout-info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-order-table-viki {
+display: flex;
+
+}
+.review-order-table-viki td:last-child {
+    width: 28%;}
+
+.wd-checkout-prod-quantity {
+    padding: 10px 0;
+}
+
+.attribute-name {
+    text-transform: capitalize;
+}
+.review-order-table-viki {
+
+    td {
+        flex-grow: 1;
+    }
+    
+    
+    
+}
+.viki-reworder-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+
+.wd-checkout-remove-btn-wrapp {
+    &:hover {
+        opacity: 0.3;}
+}
+
+@media screen and (min-width: $mobile-portrait) {
+    .mobile-remove-btn {display: none;}
+ }
+
+ @media (min-width: $mobile-portrait) and (max-width: $widescreen) {
+    .desktop-remove-btn {
+        display: none;
+    }
+}
+
+.viki-subscription-container .viki-email {border: none;}
+
+  

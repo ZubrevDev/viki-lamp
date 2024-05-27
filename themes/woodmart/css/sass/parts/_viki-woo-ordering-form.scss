@@ -1,0 +1,39 @@
+.viki-form-style {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-family: Platform-light;
+    border:none;
+    color: #646464;
+}
+
+.woocommerce-ordering.viki-form-style select {
+     border:none;
+     color: var(--color-gray-900);
+     font-family: Platform-light;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 100%; /* 14px */
+     letter-spacing: 0.35px;
+
+
+   }
+
+   .woocommerce-ordering.viki-form-style  {
+     font-family: Platform-light;
+     height: auto;
+     border:none;
+     border-radius: 4px;
+     background-color: #2A2A2A;
+     background-position: right 0 top 50%;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 100%; /* 14px */
+     letter-spacing: 0.35px;
+     padding-inline-start: 20px;
+
+     color: #646464;
+
+   }

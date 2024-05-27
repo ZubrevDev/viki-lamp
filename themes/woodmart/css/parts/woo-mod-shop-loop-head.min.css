@@ -1,0 +1,44 @@
+.shop-loop-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 965px;
+  width: 100%;
+  margin-left: auto;
+}
+.wd-shop-tools {
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.wd-shop-tools > * {
+  margin-bottom: 10px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+.wd-shop-tools > *:last-child {
+  margin-inline-end: 0;
+  
+}
+@media (max-width: 1024px) {
+  .shop-loop-head {
+    margin-bottom: 10px;
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 35px;
+  }
+  .wd-shop-tools  {
+    width: 100%;
+
+  }
+  .shop-content-area .shop-loop-head {
+    margin-top: -10px;
+  }
+}
+@media (max-width: 768.98px) {
+  .shop-content-area .shop-loop-head {
+    margin-top: -15px;
+  }
+}

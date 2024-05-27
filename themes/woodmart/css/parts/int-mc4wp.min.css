@@ -1,0 +1,26 @@
+.mc4wp-form input[type="submit"] {
+  
+}
+.mc4wp-form input[type="submit"]:hover {
+  
+}
+.mc4wp-form input[type="submit"]:active {
+ 
+}
+.mc4wp-form .row {
+}
+.mc4wp-form [class*="col"] {
+}
+.mc4wp-form .col {
+}
+.mc4wp-form-fields {
+
+}
+body:not(.notifications-sticky) .mc4wp-alert {
+}
+.mc4wp-alert > p {
+}
+@media (min-width: 1025px) {
+  .mc4wp-form input[type="submit"] {
+  }
+}

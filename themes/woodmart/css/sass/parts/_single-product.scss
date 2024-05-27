@@ -1,0 +1,57 @@
+.product_title {
+    @include Headline-64; 
+  }
+  @media (max-width: 1024px) {
+    .product_title {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 768.98px) {
+    .wd-product-brands img {
+      max-width: 70px;
+    }
+    .product_title {
+      font-size: 20px;
+    }
+  }
+
+  .viki-sizeguide-style{
+    @include text-light-24;
+    a span {
+      color: #646464;
+      text-transform: lowercase;
+      &:hover {
+        color: #fff  
+      }
+    }
+    
+  }
+.single_add_to_cart_button { 
+  @include tablet-light-18
+
+}
+
+.viki-product-wishlist {
+  border-radius: 8px;
+  background-color:#646464;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  min-height: var(--btn-height);
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+.viki-product-wishlist a {
+  @include tablet-light-18
+
+
+}
+
+.elementor-widget-wd_single_product_wishlist_button {
+margin-top: 20px!important;
+}
+

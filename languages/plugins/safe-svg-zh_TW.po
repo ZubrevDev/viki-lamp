@@ -1,0 +1,93 @@
+# Translation of Plugins - Safe SVG - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Safe SVG - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-21 17:36:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Safe SVG - Stable (latest release)\n"
+
+#: safe-svg.php:238
+msgid "Sorry, you are not allowed to upload SVG files."
+msgstr "很抱歉，目前的登入身分沒有上傳 SVG 檔案的權限。"
+
+#: includes/safe-svg-settings.php:103
+msgid "Select which user roles can upload SVG files."
+msgstr "選取要開放上傳 SVG 檔案的使用者角色。"
+
+#: includes/safe-svg-settings.php:38
+msgid "User Roles"
+msgstr "使用者角色"
+
+#: includes/safe-svg-settings.php:31
+msgid "Safe SVG Settings"
+msgstr "Safe SVG 設定"
+
+#. translators: %s: Minimum required PHP version
+#: safe-svg.php:65
+msgid "Safe SVG requires PHP version %s or later. Please upgrade PHP or disable the plugin."
+msgstr "Safe SVG 需要 PHP %s 或更新版本。請升級 PHP 執行環境或停用外掛。"
+
+#: includes/blocks/safe-svg/block.json
+msgctxt "block description"
+msgid "Display the SVG icon"
+msgstr "顯示 SVG 圖示。"
+
+#: includes/blocks/safe-svg/block.json
+msgctxt "block title"
+msgid "Safe SVG"
+msgstr "Safe SVG"
+
+#: includes/blocks.php:51 dist/safe-svg-block.js:1
+#: includes/blocks/safe-svg/edit.js:209
+msgid "SafeSvg"
+msgstr "Safe SVG"
+
+#. Description of the plugin
+msgid "Enable SVG uploads and sanitize them to stop XML/SVG vulnerabilities in your WordPress website"
+msgstr "為 WordPress 網站解除上傳 SVG 檔案的限制，並進行適當處理以防止觸發 XML/SVG 漏洞。"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/safe-svg/"
+msgstr "https://tw.wordpress.org/plugins/safe-svg/"
+
+#: safe-svg.php:343
+msgid "Large"
+msgstr "大型尺寸"
+
+#: safe-svg.php:342
+msgid "Medium"
+msgstr "中型尺寸"
+
+#: safe-svg.php:341
+msgid "Thumbnail"
+msgstr "縮圖尺寸"
+
+#: safe-svg.php:340
+msgid "Full Size"
+msgstr "完整尺寸"
+
+#: safe-svg.php:247
+msgid "Sorry, this file couldn't be sanitized so for security reasons wasn't uploaded"
+msgstr "由於安全性考量，無法處理這個檔案，因此無法上傳。"
+
+#. translators: %1$s is the command that needs to be run.
+#: safe-svg.php:89
+msgid "You appear to be running a development version of Safe SVG. Please run %1$s in order for things to work properly."
+msgstr "這個網站正在執行 Safe SVG 的開發版本。請執行 %1$s 版以確保執行結果正確。"
+
+#. Author URI of the plugin
+msgid "https://10up.com"
+msgstr "https://10up.com"
+
+#. Author of the plugin
+msgid "10up"
+msgstr "10up"
+
+#. Plugin Name of the plugin
+msgid "Safe SVG"
+msgstr "Safe SVG"

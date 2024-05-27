@@ -1,0 +1,22 @@
+.viki-text-heading {
+    @include Headline-64;
+
+}
+.viki-under-heading-title{
+    @include text-light-24;
+}
+
+.viki-text-h4 
+{
+    @include text-reg-24;
+}
+
+.viki-text-link {
+    @include text-reg-18;
+    text-transform: capitalize;
+    text-decoration: underline;
+    &:hover {
+        opacity: 0.3;
+    }
+
+}

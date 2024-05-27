@@ -1,0 +1,54 @@
+#menu-main-menu >li {
+    flex-grow: 1; /* Занимает доступное пространство */
+}
+#menu-main-menu >li > a {
+    justify-content: space-around;
+}
+
+.widget_nav_mega_menu{
+
+    .nav-link-text {
+        @include text-light-24;
+        color: $LightGrey;
+        text-transform: uppercase;
+        
+        @media screen and (max-width: #{$tablet-landscape}) {
+            @include tablet-light-14;
+            
+            }
+        &:hover {
+            color: $White;
+        }
+    }
+    
+}  
+
+@media screen and (max-width: #{$widescreen}) {
+    .wd-nav > li:is(.wd-has-children, .menu-item-has-children) > a:after {
+        content: none;
+        display: none;
+    }
+        
+    }
+
+
+    #menu-mobile-menu .nav-link-text {
+        @include text-reg-24;
+        color: $White;
+        
+    }
+
+    .mobile-nav .wd-search-form form .s {
+        border: 0px none;
+        border-radius: 8px;
+    }
+
+    .mobile-nav .wd-search-form form   {
+        flex: 1 1 0%;
+        padding: 5px 20px;
+        min-height: 50px;}
+
+    .mobile-row {margin: 20px 0 20px 0;
+    }
+    
+    

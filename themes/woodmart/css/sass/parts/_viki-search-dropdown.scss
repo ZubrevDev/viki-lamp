@@ -1,0 +1,35 @@
+.viki-search-dropdown {
+
+    .wd-dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 380;
+        margin-right: 0;
+        margin-left: calc(var(--nav-gap, 0.001px) / 2 * -1);
+        background-color: #222222;
+        background-position: bottom right;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+        text-align: left;
+        border-radius: var(--wd-brd-radius);
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1),
+          visibility 0.4s cubic-bezier(0.19, 1, 0.22, 1),
+          transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+        transform: translateY(0) translateZ(15px);
+        pointer-events: none;
+      }
+
+    
+}
+.searchform {
+    .s {
+        padding-right: 110px;
+       &::placeholder {
+        border-bottom: 1px solid #646464;
+       }
+          }
+}

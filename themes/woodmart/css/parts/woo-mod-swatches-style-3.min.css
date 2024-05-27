@@ -1,0 +1,26 @@
+[class*="wd-swatches"].wd-bg-style-3 .wd-swatch.wd-bg {
+  padding: var(--wd-swatch-inn-sp);
+}
+[class*="wd-swatches"].wd-bg-style-3 .wd-swatch-bg:before {
+  border: none !important;
+}
+[class*="wd-swatches"].wd-text-style-3 .wd-swatch.wd-text .wd-swatch-text {
+  font-size: calc(var(--wd-swatch-text-size) - 2px);
+}
+[class*="wd-swatches"].wd-bg-style-3 .wd-swatch.wd-bg,
+[class*="wd-swatches"].wd-text-style-3 .wd-swatch.wd-text {
+  --wd-swatch-inn-sp: 4px;
+  background-color: #2A2A2A;
+}
+[class*="wd-swatches"].wd-bg-style-3
+  .wd-swatch.wd-bg:is(.wd-active, :hover:not(.wd-disabled)),
+[class*="wd-swatches"].wd-bg-style-3
+  :is(.wd-swatch-wrap a:hover, .wd-swatch-wrap.wd-active)
+  .wd-swatch.wd-bg,
+[class*="wd-swatches"].wd-text-style-3
+  .wd-swatch.wd-text:is(.wd-active, :hover:not(.wd-disabled)),
+[class*="wd-swatches"].wd-text-style-3
+  :is(.wd-swatch-wrap a:hover, .wd-swatch-wrap.wd-active)
+  .wd-swatch.wd-text {
+    background-color: #fff;
+    color:#000;}

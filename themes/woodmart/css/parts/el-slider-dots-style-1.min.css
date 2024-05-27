@@ -1,0 +1,17 @@
+.pagin-style-1 .flickity-page-dots {
+  bottom: 10px;
+}
+.pagin-style-1 .flickity-page-dots li {
+  margin: 5px;
+  width: 8rem;
+  height: 4px;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+  background: rgba(255, 255, 255, 0.30);
+}
+.pagin-style-1 .flickity-page-dots li:not(.is-selected):hover {
+  background: #626262; 
+}
+.pagin-style-1 .flickity-page-dots li.is-selected {
+  background: #fff;
+}

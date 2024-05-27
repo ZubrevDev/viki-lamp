@@ -1,0 +1,32 @@
+// Глобальные переменные и настройки
+@import "./global/var";
+@import "./global/colors";
+
+@import "./mixins/headings-mixins";
+
+@import "./global/buttons";
+
+@import "./parts/header";
+@import "./parts/highlights";
+@import "./parts/middle-slider";
+@import "./parts/catalog-section-main-page";
+@import "./parts/main-prod-section";
+@import "./parts/slider-top-mainpage";
+@import "./parts/footer";
+@import "./parts/subscribe-form";
+@import "./parts/main-menu";
+@import "./parts/main-page-product-slider";
+@import "./parts/catalog";
+@import "./parts/uncategorized";
+@import "./parts/_viki-woo-ordering-form";
+@import "./parts/_collections-layout";
+@import "./parts/_single-product";
+@import "./parts/_stores-page";
+@import "./parts/_viki-search-dropdown";
+@import "./parts/cart-styles";
+@import "./parts/woo-prod-owl";
+
+
+
+
+

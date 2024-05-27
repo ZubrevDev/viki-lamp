@@ -1,0 +1,1139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Byteplant Phone Validator\n"
+"POT-Creation-Date: 2020-11-26 11:05+0100\n"
+"PO-Revision-Date: 2020-11-26 11:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: Byteplant <support@byteplant.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: _;_e;esc_html_e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/API/class-bppv-countries.php:26
+msgid "Afghanistan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:27
+msgid "Albania"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:28
+msgid "Algeria"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:29
+msgid "American Samoa"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:30
+msgid "Andorra"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:31
+msgid "Angola"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:32
+msgid "Anguilla"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:33
+msgid "Antarctica"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:34
+msgid "Antigua & Barbuda"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:35
+msgid "Argentina"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:36
+msgid "Armenia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:37
+msgid "Aruba"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:38
+msgid "Australia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:39
+msgid "Austria"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:40
+msgid "Azerbaijan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:41
+msgid "Bahamas"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:42
+msgid "Bahrain"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:43
+msgid "Bangladesh"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:44
+msgid "Barbados"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:45
+msgid "Belarus"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:46
+msgid "Belgium"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:47
+msgid "Belize"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:48
+msgid "Benin"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:49
+msgid "Bermuda"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:50
+msgid "Bhutan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:51
+msgid "Bolivia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:52
+msgid "Bosnia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:53
+msgid "Botswana"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:54
+msgid "Bouvet Island"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:55
+msgid "Brazil"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:56
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:57
+msgid "British Virgin Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:58
+msgid "Brunei"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:59
+msgid "Bulgaria"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:60
+msgid "Burkina Faso"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:61
+msgid "Burundi"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:62
+msgid "Cambodia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:63
+msgid "Cameroon"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:64
+msgid "Canada"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:65
+msgid "Cape Verde"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:66
+msgid "Caribbean Netherlands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:67
+msgid "Cayman Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:68
+msgid "Central African Republic"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:69
+msgid "Chad"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:70
+msgid "Chile"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:71
+msgid "China"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:72
+msgid "Christmas Island"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:73
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:74
+msgid "Colombia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:75
+msgid "Comoros"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:76
+msgid "Congo - Brazzaville"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:77
+msgid "Congo - Kinshasa"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:78
+msgid "Cook Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:79
+msgid "Costa Rica"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:80
+msgid "Croatia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:81
+msgid "Cuba"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:82
+msgid "Curaçao"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:83
+msgid "Cyprus"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:84
+msgid "Czechia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:85
+msgid "Côte d’Ivoire"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:86
+msgid "Denmark"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:87
+msgid "Djibouti"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:88
+msgid "Dominica"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:89
+msgid "Dominican Republic"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:90
+msgid "Ecuador"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:91
+msgid "Egypt"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:92
+msgid "El Salvador"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:93
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:94
+msgid "Eritrea"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:95
+msgid "Estonia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:96
+msgid "Ethiopia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:97
+msgid "Falkland Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:98
+msgid "Faroe Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:99
+msgid "Fiji"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:100
+msgid "Finland"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:101
+msgid "France"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:102
+msgid "French Guiana"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:103
+msgid "French Polynesia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:104
+msgid "French Southern Territories"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:105
+msgid "Gabon"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:106
+msgid "Gambia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:107
+msgid "Georgia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:108
+msgid "Germany"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:109
+msgid "Ghana"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:110
+msgid "Gibraltar"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:111
+msgid "Greece"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:112
+msgid "Greenland"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:113
+msgid "Grenada"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:114
+msgid "Guadeloupe"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:115
+msgid "Guam"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:116
+msgid "Guatemala"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:117
+msgid "Guernsey"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:118
+msgid "Guinea"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:119
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:120
+msgid "Guyana"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:121
+msgid "Haiti"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:122
+msgid "Heard & McDonald Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:123
+msgid "Honduras"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:124
+msgid "Hong Kong"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:125
+msgid "Hungary"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:126
+msgid "Iceland"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:127
+msgid "India"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:128
+msgid "Indonesia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:129
+msgid "Iran"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:130
+msgid "Iraq"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:131
+msgid "Ireland"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:132
+msgid "Isle of Man"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:133
+msgid "Israel"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:134
+msgid "Italy"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:135
+msgid "Jamaica"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:136
+msgid "Japan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:137
+msgid "Jersey"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:138
+msgid "Jordan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:139
+msgid "Kazakhstan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:140
+msgid "Kenya"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:141
+msgid "Kiribati"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:142
+msgid "Kuwait"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:143
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:144
+msgid "Laos"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:145
+msgid "Latvia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:146
+msgid "Lebanon"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:147
+msgid "Lesotho"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:148
+msgid "Liberia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:149
+msgid "Libya"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:150
+msgid "Liechtenstein"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:151
+msgid "Lithuania"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:152
+msgid "Luxembourg"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:153
+msgid "Macau"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:154
+msgid "Macedonia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:155
+msgid "Madagascar"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:156
+msgid "Malawi"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:157
+msgid "Malaysia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:158
+msgid "Maldives"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:159
+msgid "Mali"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:160
+msgid "Malta"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:161
+msgid "Marshall Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:162
+msgid "Martinique"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:163
+msgid "Mauritania"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:164
+msgid "Mauritius"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:165
+msgid "Mayotte"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:166
+msgid "Mexico"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:167
+msgid "Micronesia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:168
+msgid "Moldova"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:169
+msgid "Monaco"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:170
+msgid "Mongolia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:171
+msgid "Montenegro"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:172
+msgid "Montserrat"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:173
+msgid "Morocco"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:174
+msgid "Mozambique"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:175
+msgid "Myanmar"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:176
+msgid "Namibia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:177
+msgid "Nauru"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:178
+msgid "Nepal"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:179
+msgid "Netherlands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:180
+msgid "New Caledonia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:181
+msgid "New Zealand"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:182
+msgid "Nicaragua"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:183
+msgid "Niger"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:184
+msgid "Nigeria"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:185
+msgid "Niue"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:186
+msgid "Norfolk Island"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:187
+msgid "North Korea"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:188
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:189
+msgid "Norway"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:190
+msgid "Oman"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:191
+msgid "Pakistan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:192
+msgid "Palau"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:193
+msgid "Palestine"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:194
+msgid "Panama"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:195
+msgid "Papua New Guinea"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:196
+msgid "Paraguay"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:197
+msgid "Peru"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:198
+msgid "Philippines"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:199
+msgid "Pitcairn Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:200
+msgid "Poland"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:201
+msgid "Portugal"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:202
+msgid "Puerto Rico"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:203
+msgid "Qatar"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:204
+msgid "Romania"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:205
+msgid "Russia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:206
+msgid "Rwanda"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:207
+msgid "Réunion"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:208
+msgid "Samoa"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:209
+msgid "San Marino"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:210
+msgid "Saudi Arabia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:211
+msgid "Senegal"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:212
+msgid "Serbia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:213
+msgid "Seychelles"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:214
+msgid "Sierra Leone"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:215
+msgid "Singapore"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:216
+msgid "Sint Maarten"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:217
+msgid "Slovakia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:218
+msgid "Slovenia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:219
+msgid "Solomon Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:220
+msgid "Somalia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:221
+msgid "South Africa"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:222
+msgid "South Georgia & South Sandwich Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:223
+msgid "South Korea"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:224
+msgid "South Sudan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:225
+msgid "Spain"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:226
+msgid "Sri Lanka"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:227
+msgid "St. Barthélemy"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:228
+msgid "St. Helena"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:229
+msgid "St. Kitts & Nevis"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:230
+msgid "St. Lucia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:231
+msgid "St. Martin"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:232
+msgid "St. Pierre & Miquelon"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:233
+msgid "St. Vincent & Grenadines"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:234
+msgid "Sudan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:235
+msgid "Suriname"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:236
+msgid "Svalbard & Jan Mayen"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:237
+msgid "Swaziland"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:238
+msgid "Sweden"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:239
+msgid "Switzerland"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:240
+msgid "Syria"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:241
+msgid "São Tomé & Príncipe"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:242
+msgid "Taiwan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:243
+msgid "Tajikistan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:244
+msgid "Tanzania"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:245
+msgid "Thailand"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:246
+msgid "Timor-Leste"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:247
+msgid "Togo"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:248
+msgid "Tokelau"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:249
+msgid "Tonga"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:250
+msgid "Trinidad & Tobago"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:251
+msgid "Tunisia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:252
+msgid "Turkey"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:253
+msgid "Turkmenistan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:254
+msgid "Turks & Caicos Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:255
+msgid "Tuvalu"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:256
+msgid "U.S. Outlying Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:257
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:258
+msgid "UK"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:259
+msgid "US"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:260
+msgid "Uganda"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:261
+msgid "Ukraine"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:262
+msgid "United Arab Emirates"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:263
+msgid "Uruguay"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:264
+msgid "Uzbekistan"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:265
+msgid "Vanuatu"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:266
+msgid "Vatican City"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:267
+msgid "Venezuela"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:268
+msgid "Vietnam"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:269
+msgid "Wallis & Futuna"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:270
+msgid "Western Sahara"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:271
+msgid "Yemen"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:272
+msgid "Zambia"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:273
+msgid "Zimbabwe"
+msgstr ""
+
+#: src/API/class-bppv-countries.php:274
+msgid "Åland Islands"
+msgstr ""
+
+#: src/Gravity/class-bppv-gravity-forms.php:58
+#: src/Ninja/class-bppv-ninja-forms.php:57
+msgid "Please enter a valid phone number."
+msgstr "Bitte geben Sie eine gültige Telefon-Nummer ein."
+
+#: src/WC/class-bppv-wc.php:50 src/WC/class-bppv-wc.php:69
+msgid "<strong>Phone</strong> is not a valid phone number."
+msgstr "<strong>Die Telefonnummer</strong> ist nicht gültig."
+
+#: src/class-bppv-admin.php:64
+msgid "The API Key is invalid."
+msgstr "Der API Key ist ungültig."
+
+#: src/class-bppv-admin.php:65
+msgid "Go to settings and hide message"
+msgstr "In den Einstellungen diese Nachricht abstellen"
+
+#: src/class-bppv-admin.php:79 src/class-bppv-admin.php:91
+msgid "Byteplant Phone Validator"
+msgstr "Byteplant Phone Validator"
+
+#: src/class-bppv-admin.php:101
+msgid "Validate Phone Number"
+msgstr "Telefonnummer-Validierung"
+
+#: src/class-bppv-admin.php:102
+msgid "Please enter the phone number you want to validate."
+msgstr "Bitte eine Telefonnummer zur Validierung eingeben."
+
+#: src/class-bppv-admin.php:106
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: src/class-bppv-admin.php:115
+msgid "Validate"
+msgstr "Validieren"
+
+#: src/class-bppv-admin.php:161
+msgid "Phone Validator Options"
+msgstr "Phone Validator Einstellungen"
+
+#: src/class-bppv-admin.php:168
+msgid "API Key"
+msgstr "API Key"
+
+#: src/class-bppv-admin.php:182
+msgid "Validate phone numbers on WooCommerce Checkout"
+msgstr "Validiere Telefonnummern beim WooCommerce Checkout"
+
+#: src/class-bppv-admin.php:196
+msgid "Validate phone numbers with Contact Form 7"
+msgstr "Contact Form 7"
+
+#: src/class-bppv-admin.php:210
+msgid "Validate phone numbers with Gravity Forms"
+msgstr "Gravity Forms"
+
+#: src/class-bppv-admin.php:224
+msgid "Validate phone numbers with Ninja Forms"
+msgstr "Ninja Forms"
+
+#: src/class-bppv-admin.php:238
+msgid "Country (leave empty to validate international phone numbers)"
+msgstr "Land (bitte leer lassen um internationale Nummern zu validieren)"
+
+#: src/class-bppv-admin.php:261
+msgid ""
+"International Phone Number Validation<br/>\n"
+"The Phone-Validator real-time validation API provides detailed information "
+"for each phone number:<br/>\n"
+"Status: VALID/CONFIRMED, VALID/UNCONFIRMED or INVALID<br/>\n"
+"Line type: FIXED_LINE, MOBILE, VOIP etc.<br/>\n"
+"Geolocation: Region and city<br/>\n"
+"Phone number correction and re-formatting according to national and "
+"international standards.<br/>\n"
+"During the entire process, the phone number is not contacted in any way, nor "
+"will any phones connected to a line ring."
+msgstr ""
+"Validierung von internationalen Telefonnummern<br/>Das Phone-Validator API "
+"prüft Rufnummern in Echtzeit und liefert für jede Nummer detaillierte "
+"Informationen:<br/>Status: VALID/CONFIRMED, VALID/UNCONFIRMED oder "
+"INVALID<br/>Anschluss: FIXED_LINE, MOBILE, VOIP etc.<br/>Ort: Region bzw. "
+"Stadt<br/>Die Telefonnummer wird während der Überprüfung zu keinem Zeitpunkt "
+"angerufen."
+
+#: src/class-bppv-admin.php:271
+msgid ""
+"You can register for a <a href=\"https://www.phone-validator.net/api.html\" "
+"target=\"_blank\">free API key</a> (limited to 100 phone number checks)."
+"<br>\n"
+"If you want to verify more than 100 numbers, please have a look at our pay-"
+"as-you-go pricing model and the <a href=\"https://www.phone-validator.net/"
+"pricing.html\" target=\"_blank\">subscription plans</a> we offer."
+msgstr ""
+
+#: src/class-bppv-plugin.php:240
+msgid "Valid Confirmed"
+msgstr ""
+
+#: src/class-bppv-plugin.php:241
+msgid "Valid Unconfirmed"
+msgstr ""
+
+#: src/class-bppv-plugin.php:242
+msgid "Invalid"
+msgstr ""
+
+#: src/class-bppv-plugin.php:243
+msgid "Validation Delayed"
+msgstr ""
+
+#: src/class-bppv-plugin.php:244
+msgid "Rate Limit Exceeded"
+msgstr ""
+
+#: src/class-bppv-plugin.php:245
+msgid "API Key Invalid or Depleted"
+msgstr ""
+
+#: src/class-bppv-plugin.php:246 src/class-bppv-plugin.php:247
+msgid "Phone Number Missing"
+msgstr "Keine Telefonnummer angegeben"
+
+#: src/class-bppv-plugin.php:248
+msgid "Service Unavailable"
+msgstr ""

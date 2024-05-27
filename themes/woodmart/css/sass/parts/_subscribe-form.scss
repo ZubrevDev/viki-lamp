@@ -1,0 +1,98 @@
+.newsletters-heading{
+  @include text-reg-18;
+  text-align: left;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+
+}
+.viki-subscription-container{
+    margin-top: 16px;
+    display: flex;
+    padding: 8px 8px 8px 24px;
+    outline:1px solid;
+    color: $LightGrey;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+    @media screen and (max-width: #{$tablet-portrait}) {
+        outline: none;
+        flex-direction: column;
+        padding: 0;
+        gap: 4px;
+
+
+    }    
+  }
+  
+  
+  .viki-subscription-container .viki-subccribe-button {
+    @include text-light-24;
+    display: flex;
+    width: 192px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid $Grey;
+    background: $Grey;
+    color: $White;
+
+    @media screen and (max-width: #{$tablet-portrait}) {
+      border-radius:8px;
+      width: 100%;
+      border:none;
+
+
+
+      
+
+  }   
+
+  }
+  .viki-subccribe-button:hover {
+    background-color:transparent;
+    border-radius: 8px;
+    border: 1px solid $LightGrey;
+  }
+  .viki-subccribe-button:active {
+    background-color:$Grey;
+    border-radius: 8px;
+  }
+
+  
+  .viki-email {
+    font-family: Platform, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 18px */
+    letter-spacing: 0.45px;
+    color: var(LightGrey);
+    padding: 16px 24px;
+    border:none;
+
+    @media screen and (max-width: #{$tablet-portrait}) {
+      padding: 8px 8px 8px 12px;
+      border: 1px solid $LightGrey;
+      border-radius:8px;
+
+      
+
+  }    
+  }
+  
+  ::placeholder {
+    color: var(LightGrey);
+    font-family: Platform, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0.45px;
+  }
+
+
+  

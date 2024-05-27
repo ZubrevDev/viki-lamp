@@ -1,0 +1,97 @@
+@import "./var";
+//web
+.Headline-295 {
+    font-family: Bilky Maliek;
+    font-size: 295px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 295px */
+    letter-spacing: 7.375px;
+    text-transform: uppercase;  
+}
+.Headline-227 {
+    font-family: Bilky Maliek;
+    font-size: 227px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 227px */
+    letter-spacing: 5.675px;
+    text-transform: uppercase;
+}
+
+/* Web/Headline 96 */
+.Headline-96 {
+font-family: Bilky Maliek;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 96px */
+letter-spacing: 2.4px;
+text-transform: uppercase;
+}
+
+
+@media screen and (min-width: #{$laptop}) {
+    .viki-section-heading {
+      font-family: 'Bilky Maliek';
+      font-size: 96px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%; /* 96px */
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+  
+      @media screen and (min-width: #{$mobile-landscape}) and (max-width: #{$laptop}) {
+        font-size: 64px;
+        letter-spacing: 1.6px;
+      }
+    }
+  }
+  
+.Headline-64 {
+    font-family: Bilky Maliek;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 64px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;       
+    }
+
+.Text-reg-24 {
+    font-family: Platform;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+}
+.text-light-24 {
+    font-family: Platform;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 24px */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.Text-reg-18 {
+    font-family: Platform;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+} 
+.text-light-16 {
+    font-family: Platform;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}

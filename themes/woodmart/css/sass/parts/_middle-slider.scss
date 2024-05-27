@@ -1,0 +1,128 @@
+@import "../mixins/_headings-mixins";
+
+.info-main-container {
+    text-align: center;
+
+}
+
+
+.slider-main-heading {
+@include Headline-96;
+    text-align:center;
+    max-width: 928px;
+    margin-bottom: 23px;
+    margin: 0 auto;
+
+    @media screen and (max-width: #{$tablet-landscape}) {
+        @include tablet-headline-64;
+        
+        }
+        @media screen and (max-width: #{$tablet-portrait}) {
+            @include mobile-headline-40;
+               
+            }    
+    
+    @media screen and (max-width: #{$mobile-landscape}) {
+         @include mobile-headline-32;
+            
+         }
+    
+}
+
+.text-under-slider-heading {
+    @include text-reg-24;
+    text-align:center;
+    max-width: 440px;
+    margin: 0 auto;
+    padding-top: 23px;
+
+    @media screen and (max-width: #{$tablet-landscape}) {
+        @include tablet-text-reg-20;
+        
+        }
+        @media screen and (max-width: #{$tablet-portrait}) {
+            @include mobile-reg-16;
+               
+            }    
+    
+    @media screen and (max-width: #{$mobile-landscape}) {
+         @include mobile-reg-16;
+         padding: 37px 16px 0 16px;
+            
+         }
+}
+
+.images-bg {
+    position: relative;
+
+    &::before {
+        content:"";
+        position: absolute;
+        display: block;
+        top: 102px;
+        left: -133px;
+        width: 375px; /* Укажите желаемую ширину изображения */
+        height: 375px; /* Укажите желаемую высоту изображения */
+        background-image: url('https://vvbbgguuii839.com/wp-content/uploads/2023/10/Rectangle-35.png'); /* Укажите путь к первому изображению */
+        background-size: cover;
+        z-index: -1;
+
+        @media screen and (max-width: #{$tablet-landscape}) {
+            left: -28px;
+            width: 221px; /* Укажите желаемую ширину изображения */
+            height: 221px;
+            
+            }
+            @media screen and (max-width: #{$tablet-portrait}) {
+                left: -25px;
+                width: 221px; /* Укажите желаемую ширину изображения */
+                height: 221px;                    
+                }    
+        
+        @media screen and (max-width: #{$mobile-landscape}) {
+            left: -71px;
+            width: 171px; /* Укажите желаемую ширину изображения */
+            height: 171px;                 
+             }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        bottom: 100px;
+        right: -129px;
+        width: 375px; /* Укажите желаемую ширину изображения */
+        height: 375px; /* Укажите желаемую высоту изображения */
+        background-image: url('https://vvbbgguuii839.com/wp-content/uploads/2023/10/Rectangle-35.png'); /* Укажите путь к первому изображению */
+        background-size: cover;
+        z-index: -1;
+
+        @media screen and (max-width: #{$tablet-landscape}) {
+            right: -76px;;
+            width: 221px; /* Укажите желаемую ширину изображения */
+            height: 221px;
+            
+            }
+            @media screen and (max-width: #{$tablet-portrait}) {
+                width: 221px; /* Укажите желаемую ширину изображения */
+                height: 221px;                    
+                }    
+        
+        @media screen and (max-width: #{$mobile-landscape}) {
+
+            width: 171px; /* Укажите желаемую ширину изображения */
+            height: 171px;                 
+             }
+      }
+}
+
+  
+  
+  
+
+
+
+
+
+
+  

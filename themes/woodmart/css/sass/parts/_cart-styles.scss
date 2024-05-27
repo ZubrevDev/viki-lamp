@@ -1,0 +1,189 @@
+.viki-cart-style {
+}
+.product-remove-text {
+  color: #fff;
+  font-family: "platform-light";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; // 18px
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #fff;
+}
+.product-remove a:hover {
+  opacity: 0.3;
+}
+.add-to-wish-list {
+  color: #fff;
+  font-family: "platform-light";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; // 18px
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #fff;
+}
+.add-to-wish-list:hover {
+  opacity: 0.3;
+}
+
+td.product-remove a:not(:last-child) {
+  margin-right: 40px;
+}
+
+.viki-cart-style thead tr th {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: 0.45px;
+  color: var(--LightGrey, #646464);
+}
+
+.woocommerce-shipping-destination,
+.woocommerce-shipping-calculator {
+  display: none !important;
+}
+.Shipping {
+    li {
+      
+        list-style: none!important;
+      
+    }
+  }
+  
+.order-total {
+    border-top:1px solid #646464;
+}
+a .product-name-text {
+    font-family: Platform-regular;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+letter-spacing: 0.45px;
+
+@media screen and (max-width: $mobile-landscape) {
+    @include mobile-reg-16;
+  }
+  
+}
+
+.product-attribute .viki-value {
+font-family: Platform-light;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 18px */
+letter-spacing: 0.45px;
+color: #fff;
+opacity: 0.3;
+text-transform: capitalize;
+
+@media screen and (max-width: $mobile-landscape) {
+    @include mobile-reg-12;
+  }
+}
+.viki-price  {
+opacity: 1!important;
+@media screen and (max-width: $mobile-landscape) {
+  @include mobile-reg-12;
+}
+}
+.product-attribute {
+    margin-top: 18px;
+@media screen and (max-width: $mobile-landscape) {
+  margin-top: 12px;
+  &:nth-child(2) {
+    order: 1;
+}
+
+&:nth-child(1) {
+    order: 2;
+}
+}
+
+
+}
+
+.viki-current-value {
+font-family: Platform-light;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 18px */
+letter-spacing: 0.45px;
+margin-left: 8px;
+text-transform: capitalize;
+
+@media screen and (max-width: $mobile-landscape) {
+  @include mobile-light-12;
+  text-transform: capitalize;
+
+  
+}
+
+}
+@media screen and (max-width: $mobile-landscape) {
+
+td.product-size {
+  @include mobile-light-12;
+}
+.size-style {
+  @include mobile-light-12;
+}
+
+
+}
+.viki-tfoot {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #2A2A2A;
+  border-radius: 8px;
+}
+/* Hide the default radio button */
+/* Hide default radio button and checkbox */
+input[type='radio'], input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: none;
+}
+
+/* Create a custom radio button and checkbox */
+input[type='radio'] + label, input[type='checkbox'] + label {
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Custom radio button and checkbox styling */
+input[type='radio'] + label:before, input[type='checkbox'] + label:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #646464;
+  border-radius: 3px; 
+  background-color: transparent;
+  vertical-align: middle;
+  margin: 5px; 
+}
+
+/* Styling for checked state */
+input[type='radio']:checked + label:before, input[type='checkbox']:checked + label:before {
+  background-color: #fff;
+  border-color: #fff; 
+  content: '\f107'; 
+  color: #646464; 
+  text-align: center; 
+  line-height: 16px; 
+  font-family: "woodmart-font";
+  font-size: 16px;
+}

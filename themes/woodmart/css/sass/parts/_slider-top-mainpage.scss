@@ -1,0 +1,75 @@
+.slider-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-drag: none; /* Запрещаем перетаскивание веб-страницы в Safari */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.slide {
+    flex: 0 0 100%;
+    text-align: center;
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 1px solid $LightGrey;
+    min-width: 85.655px;
+    height: 46px;
+    z-index: 2;
+    background-color:$BG;
+
+}
+
+.button-container button {
+    cursor: pointer;
+    width: 24px; /* Ширина кнопки */
+    height: 24px; /* Высота кнопки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-container button svg {
+    stroke: #646464; 
+}
+.button-container button svg:hover {
+    stroke: #fff; 
+}
+.button-container button svg:active {
+    stroke: #646464; 
+}
+
+
+.button-container button {
+    all: unset;
+}
+
+.conteiner-mobile-device {
+display: flex;
+flex-direction: row-reverse;
+z-index: 99;
+
+
+
+
+@media screen and (min-width: #{$tablet-portrait} ) {
+    display: none;
+        
+    }
+}
+.slider-mobile-controls {
+    position: absolute;
+}
+
+
+

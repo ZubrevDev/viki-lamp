@@ -1,0 +1,13 @@
+.viki-slide-heading {
+    @include tablet-headline-64;
+    
+    @media screen and (max-width: #{$laptop}) {
+        @include tablet-headline-48;
+           
+        }
+    
+    @media screen and (max-width: #{$mobile-landscape}) {
+         @include mobile-headline-40;
+            
+         }
+}

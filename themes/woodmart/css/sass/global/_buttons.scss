@@ -1,0 +1,21 @@
+@import "../mixins/_headings-mixins";
+
+.viki-button-style {
+  @include text-light-24;
+}
+
+.btn {
+    .wd-btn-text {
+      @include text-light-24;
+
+      @media screen and (max-width: $mobile-landscape) {
+        @include mobile-light-20;
+      }
+      @media screen and (max-width: $mobile-portrait) {
+        @include mobile-light-14;
+      }
+    }
+   
+   
+  }
+  
