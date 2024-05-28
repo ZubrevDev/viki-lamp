@@ -9,7 +9,6 @@ function display_product_info_shortcode($atts) {
     if ($id) {
         $post = get_post($id);
 
-        // Проверка, что пост существует и является типом "Товары" (при необходимости, замените на свой тип записи)
         if ($post && $post->post_type === 'product') {
             $product_title = get_the_title($post->ID);
             $product_price = get_post_meta($post->ID, '_regular_price', true);
