@@ -259,9 +259,7 @@ a:is(:hover, :focus, :active) {
   outline: none;
   text-decoration: none;
 }
-a:hover {
-  color: var(--wd-link-color-hover);
-}
+
 a:focus {
   outline: none;
 }
